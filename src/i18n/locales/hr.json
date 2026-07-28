@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "about": "O meni",
+    "services": "Usluge",
+    "portfolio": "Portfolio",
+    "education": "Edukacija",
+    "shop": "Trgovina",
+    "contact": "Kontakt",
+    "book": "Rezerviraj tečaj"
+  },
+  "hero": {
+    "eyebrow": "Globalna Vizažistica i Edukatorica",
+    "title1": "Ljepota s",
+    "title2": "namjerom",
+    "text": "Tamo gdje se teorija boja susreće s klasičnom umjetnošću. Profesionalna vizažistika je mnogo više od nanošenja boje — to je razumijevanje oblika, svjetla, sjene i principa koji vode umjetnike stoljećima. Svaki potez četkicom vodi znanje i namjera.",
+    "cta1": "Radi sa mnom",
+    "cta2": "Pogledaj portfolio",
+    "scroll": "Skroliraj"
+  },
+  "about": {
+    "eyebrow": "Ukratko",
+    "name": "Ana Jaksic",
+    "intro": "Nagrađivana globalna vizažistica, certificirana MUD edukatorica i CEO MUD Studio Vienna — s preko 25 godina profesionalnog iskustva. Ana spaja klasičnu umjetnost, znanstvenu preciznost i kreativnu viziju u svakom projektu.",
+    "career": "Njezina karijera odvela ju je diljem svijeta — od 8 godina u timu za obuku i razvoj umjetnika diljem Skandinavije (Danska, Švedska, Norveška i Island), preko IFFA nagrada u Makau i Pjesme Eurovizije, do tjedana mode u Milanu, Parizu i Londonu. Strastveno se zalaže za osnaživanje žena kroz ljepotu i edukaciju diljem svijeta.",
+    "basedInLabel": "Lokacija",
+    "basedIn": "Beč, Austrija — dostupna diljem svijeta",
+    "specialtiesLabel": "Specijalnosti",
+    "specialties": "Editorial, vjenčanja, moda, umjetnički make-up i edukacija",
+    "awardsLabel": "Nagrade",
+    "awards": "Najbolja Make-Up Artistica — Vienna Awards 2025 · Žena godine — Look! Magazine",
+    "experienceLabel": "Iskustvo",
+    "experience": "25+ godina profesionalne vizažistike",
+    "educationLabel": "Edukacija",
+    "educationText": "Certificirana MUD edukatorica — CEO i glavna edukatorica u MUD Studio Vienna",
+    "storyTitle1": "Tamo gdje umjetnost",
+    "storyTitle2": "susreće namjeru",
+    "storyP1": "Ja sam Ana Jaksic — globalna vizažistica, certificirana edukatorica i strastvena zagovornica umjetnosti i znanosti iza profesionalne ljepote. Sa sjedištem u Beču, moj rad obuhvaća editorial, vjenčanja i umjetnički make-up.",
+    "storyP2": "Profesionalna vizažistika je mnogo više od nanošenja boje na lice. Bez analize oblika lica, razumijevanja korektivne teorije i poznavanja kako svjetlo i sjena mijenjaju lice — make-up ostaje nagađanje. To je disciplina utemeljena na istim principima koje poznajemo iz klasičnog slikarstva i stoljeća teorije boja.",
+    "storyP3": "Svako lice je platno. Svaka odluka — od boje do postavljanja — mora biti namjerna, informirana i duboko osobna."
+  },
+  "stats": {
+    "eyebrow": "Karijera i priznanja",
+    "title": "Globalno putovanje kroz svijet ljepote",
+    "s1": "Godina profesionalnog iskustva",
+    "s2": "Godina u obuci i razvoju umjetnika",
+    "s3": "Godina rada u Skandinaviji",
+    "s4": "Lica, priče, transformacije",
+    "cta": "Zainteresirani za suradnju?"
+  },
+  "services": {
+    "eyebrow": "Usluge",
+    "title": "Što nudim",
+    "items": [
+      { "title": "Editorial i moda", "text": "High-fashion i editorial make-up za magazine, kampanje i kreativne projekte. Precizna umjetnost koja priča priču." },
+      { "title": "Vjenčanja", "text": "Bezvremenska ljepota za mladenku koja naglašava prirodne crte lica. Od klasične elegancije do modernog glamura." },
+      { "title": "Umjetnički i kreativni", "text": "Konceptualni i avangardni make-up za umjetničke projekte, performanse i kreativne suradnje." },
+      { "title": "Edukacija i mentorstvo", "text": "Profesionalna obuka za vizažiste temeljena na naprednoj teoriji boja, korektivnoj tehnici i umjetnosti svjetla i sjene." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Izabrani radovi",
+    "title": "Istaknuti portfolio",
+    "categories": ["Editorial", "Umjetnički", "Vjenčanja", "Moda", "Beauty", "Kreativno"]
+  },
+  "education": {
+    "eyebrow": "Edukacija",
+    "title1": "Ovladaj vještinom boje",
+    "title2": "i forme",
+    "text": "Profesionalna vizažistika je mnogo više od nanošenja boje. Zahtijeva analizu oblika lica, razumijevanje korektivne teorije i ovladavanje time kako svjetlo i sjena mijenjaju lice — iste principe koji su vodili majstore klasičnog slikarstva.",
+    "text2": "Moji edukativni programi vode te dalje od tehnike — u psihologiju boje, znanost o strukturi lica i umjetnost namjerne ljepote.",
+    "programs": [
+      "Napredna teorija boja za profesionalce",
+      "Oblik, svjetlo i korektivna teorija",
+      "Online masterclass-ovi",
+      "Individualno mentorstvo"
+    ]
+  },
+  "booking": {
+    "eyebrow": "Rezerviraj svoje mjesto",
+    "title": "Rezerviraj tečaj",
+    "subtitle": "Osiguraj svoje mjesto na jednom od Aninih masterclass-ova — izaberi tečaj, datum i rezerviraj za par minuta.",
+    "step1": "1. Izaberi tečaj",
+    "step2": "2. Izaberi datum",
+    "step3": "3. Tvoji podaci",
+    "step4": "4. Plaćanje",
+    "name": "Ime i prezime",
+    "email": "Email adresa",
+    "phone": "Broj telefona",
+    "message": "Poruka (neobavezno)",
+    "messagePlaceholder": "Sve što bi Ana trebala znati prije tvoje sesije...",
+    "submit": "Potvrdi rezervaciju",
+    "selectDatePrompt": "Prvo izaberi tečaj i datum",
+    "testBadge": "TEST",
+    "testNotice": "Ovo je demo tečaj kako bi mogao/mogla isprobati cijeli proces rezervacije i plaćanja prije nego što pravi tečajevi budu dostupni. Bit će naplaćen simboličan iznos od 1 € u Stripe/PayPal test načinu.",
+    "paymentIntro": "Izaberi način plaćanja. Tvoje mjesto je rezervirano čim se plaćanje potvrdi.",
+    "payWithCard": "Plati karticom (Stripe)",
+    "payWithPaypal": "Plati putem PayPal-a",
+    "paymentNotConfigured": "Plaćanje karticom još nije podešeno za ovaj tečaj — izaberi PayPal ili kontaktiraj Anu izravno.",
+    "paymentTotal": "Ukupno",
+    "fillDetailsFirst": "Prvo ispuni ime i email",
+    "successTitle": "Zahtjev za rezervaciju poslan!",
+    "successText": "Hvala, {{name}}! Tvoj zahtjev za \"{{course}}\" dana {{date}} je zaprimljen. Ana će uskoro potvrditi rezervaciju putem emaila.",
+    "bookAnother": "Rezerviraj još jedan tečaj",
+    "duration": "Trajanje",
+    "price": "Od",
+    "selected": "Izabrano",
+    "select": "Izaberi",
+    "moreInfo": "Više informacija",
+    "bookThisCourse": "Rezerviraj ovaj tečaj",
+    "backToCourses": "Natrag na tečajeve",
+    "courses": [
+      { "title": "Napredna teorija boja Masterclass", "duration": "1 dan", "price": "450 €", "description": "Dubinski uvid u teoriju boja, podtonove kože i korektivne tehnike — znanost iza svakog besprijekornog izgleda." },
+      { "title": "Oblik, svjetlo i korektivna teorija", "duration": "2 dana", "price": "780 €", "description": "Nauči kako svjetlo i sjena oblikuju lice. Konturiranje i korektivne tehnike utemeljene na principima klasične umjetnosti." },
+      { "title": "Tečaj šminkanja za vjenčanja", "duration": "1 dan", "price": "400 €", "description": "Sve što ti je potrebno za bezvremenske, foto-spremne izgleda za mladenke — od pripreme kože do tehnika dugotrajnosti." },
+      { "title": "Editorial i moda Masterclass", "duration": "2 dana", "price": "820 €", "description": "High-fashion tehnike za editorial snimanja, kampanje i modne piste — hrabar, precizan make-up koji priča priču." },
+      { "title": "Online Masterclass", "duration": "3 sata (uživo)", "price": "180 €", "description": "Uživo, interaktivna online sesija koja pokriva Anine osnovne tehnike — pridruži se odakle god da si." },
+      { "title": "Individualno mentorstvo", "duration": "Po sesiji", "price": "250 €", "description": "Personalizirani 1:1 koučing prilagođen tvojim ciljevima, portfoliju ili pitanjima o karijeri — izravan pristup Aninoj ekspertizi." },
+      { "title": "🧪 Testni tečaj — Isprobaj proces rezervacije", "duration": "30 min (Demo)", "price": "1 € (test)", "description": "Isprobaj cijeli proces rezervacije i plaćanja s ovim demo tečajem prije nego što pravi termini budu dostupni." }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Trgovina",
+    "title": "Proizvodi",
+    "subtitle": "Prvi pogled u trgovinu — ovo su demo proizvodi kako bi mogao/mogla isprobati proces kupnje prije nego što pravi proizvodi budu dostupni.",
+    "buyNow": "Kupi odmah",
+    "testBadge": "TEST",
+    "testNotice": "Demo proizvod — u test načinu se naplaćuje simboličan iznos od 1 €.",
+    "successTitle": "Narudžba poslana!",
+    "successText": "Hvala, tvoja narudžba za \"{{product}}\" je zaprimljena.",
+    "close": "Zatvori",
+    "products": [
+      { "title": "Signature Highlighter Paleta", "description": "Anina omiljena paleta highlightera u toplim tonovima za editorial sjaj.", "price": "1 € (test)" },
+      { "title": "Pro set kistova", "description": "Set od 8 kistova koje Ana koristi za precizan rad s bojom i korekcijama.", "price": "1 € (test)" },
+      { "title": "Radna bilježnica za teoriju boja (PDF)", "description": "Digitalna prateća radna bilježnica uz tečaj Napredna teorija boja.", "price": "1 € (test)" }
+    ]
+  },
+  "contact": {
+    "title": "Stupi u kontakt",
+    "instagramTitle": "Prati putovanje",
+    "instagramHandle": "@a.j.makeupandart",
+    "instagramText": "Iza kulisa, najnoviji izgledi i svakodnevna inspiracija. Pridruži se zajednici ljubitelja ljepote i profesionalaca.",
+    "instagramCta": "Prati na Instagramu"
+  },
+  "footer": {
+    "rights": "Sva prava pridržana.",
+    "basedIn": "Beč, Austrija — dostupna diljem svijeta"
+  }
+}

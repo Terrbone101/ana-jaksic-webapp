@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { DayPicker } from "react-day-picker";
-import { de, enUS, sr, fr } from "date-fns/locale";
+import { de, enUS, sr, fr, hr } from "date-fns/locale";
 import type { Locale } from "date-fns";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, CheckCircle2, Clock, FlaskConical } from "lucide-react";
@@ -18,7 +18,7 @@ interface CourseText {
   description: string;
 }
 
-const DATE_LOCALES: Record<string, Locale> = { en: enUS, de, sr, fr };
+const DATE_LOCALES: Record<string, Locale> = { en: enUS, de, sr, fr, hr };
 const STEPS = ["date", "details", "payment"] as const;
 type Step = (typeof STEPS)[number];
 

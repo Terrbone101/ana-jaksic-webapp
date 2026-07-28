@@ -7,24 +7,21 @@ export default function Logo({ className = "" }: { className?: string }) {
       xmlns="http://www.w3.org/2000/svg"
       aria-label="Ana Jaksic monogram"
     >
-      <circle cx="60" cy="60" r="55" stroke="currentColor" strokeWidth="1.5" opacity="0.5" />
-      <circle cx="60" cy="60" r="47" stroke="var(--color-gold)" strokeWidth="2" />
+      <circle cx="60" cy="60" r="52" stroke="currentColor" strokeWidth="1.25" />
+      <line x1="34" y1="46" x2="86" y2="46" stroke="var(--color-gold)" strokeWidth="1" />
+      <line x1="34" y1="74" x2="86" y2="74" stroke="var(--color-gold)" strokeWidth="1" />
       <text
         x="60"
-        y="76"
+        y="72"
         textAnchor="middle"
-        fontFamily="'Playfair Display', serif"
-        fontStyle="italic"
+        fontFamily="'Cormorant Garamond', Georgia, serif"
         fontWeight="600"
-        fontSize="46"
+        fontSize="40"
+        letterSpacing="2"
         fill="currentColor"
       >
         AJ
       </text>
-      <path
-        d="M60 8 L63.5 15.5 L71 18 L63.5 20.5 L60 28 L56.5 20.5 L49 18 L56.5 15.5 Z"
-        fill="var(--color-rose)"
-      />
     </svg>
   );
 }

@@ -2,8 +2,9 @@ import { useTranslation } from "react-i18next";
 
 const LANGS = [
   { code: "en", label: "EN" },
-  { code: "de", label: "DE" },
+  { code: "hr", label: "HR" },
   { code: "sr", label: "SR" },
+  { code: "de", label: "DE" },
   { code: "fr", label: "FR" },
 ] as const;
 
