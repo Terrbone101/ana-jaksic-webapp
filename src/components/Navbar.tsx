@@ -1,9 +1,32 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Logo from "./Logo";
+
+function MenuIcon({ open }: { open: boolean }) {
+  const bar = "absolute left-0 h-[2px] w-6 rounded-full bg-current";
+  return (
+    <span className="relative block h-4 w-6">
+      <motion.span
+        className={bar}
+        animate={open ? { top: 7, rotate: 45 } : { top: 0, rotate: 0 }}
+        transition={{ duration: 0.25, ease: "easeInOut" }}
+      />
+      <motion.span
+        className={bar}
+        style={{ top: 7 }}
+        animate={{ opacity: open ? 0 : 1 }}
+        transition={{ duration: 0.15 }}
+      />
+      <motion.span
+        className={bar}
+        animate={open ? { top: 7, rotate: -45 } : { top: 14, rotate: 0 }}
+        transition={{ duration: 0.25, ease: "easeInOut" }}
+      />
+    </span>
+  );
+}
 
 const LINKS = [
   { href: "#about", key: "about" },
@@ -73,36 +96,40 @@ export default function Navbar() {
           }`}
           onClick={() => setOpen((o) => !o)}
           aria-label="Menu"
+          aria-expanded={open}
         >
-          {open ? <X size={32} /> : <Menu size={32} />}
+          <MenuIcon open={open} />
         </button>
       </nav>
 
-      {open && (
-        <motion.div
-          initial={{ height: 0, opacity: 0 }}
-          animate={{ height: "auto", opacity: 1 }}
-          exit={{ height: 0, opacity: 0 }}
-          className="bg-ivory px-6 pb-6 lg:hidden"
-        >
-          <div className="flex flex-col gap-4">
-            {LINKS.map((link) => (
-              <a
-                key={link.key}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="text-espresso/80 font-medium"
-              >
-                {t(`nav.${link.key}`)}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
+            className="overflow-hidden bg-ivory px-6 lg:hidden"
+          >
+            <div className="flex flex-col gap-4 pb-6">
+              {LINKS.map((link) => (
+                <a
+                  key={link.key}
+                  href={link.href}
+                  onClick={() => setOpen(false)}
+                  className="text-espresso/80 font-medium"
+                >
+                  {t(`nav.${link.key}`)}
+                </a>
+              ))}
+              <a href="#booking" onClick={() => setOpen(false)} className="btn btn-primary justify-center">
+                {t("nav.book")}
               </a>
-            ))}
-            <a href="#booking" onClick={() => setOpen(false)} className="btn btn-primary justify-center">
-              {t("nav.book")}
-            </a>
-            <LanguageSwitcher dark />
-          </div>
-        </motion.div>
-      )}
+              <LanguageSwitcher dark />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.header>
   );
 }
