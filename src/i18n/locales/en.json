@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "education": "Education",
+    "shop": "Shop",
+    "contact": "Contact",
+    "book": "Book a Course"
+  },
+  "hero": {
+    "eyebrow": "Global Makeup Artist & Educator",
+    "title1": "Beauty with",
+    "title2": "Intention",
+    "text": "Where color theory meets classical art. Professional makeup artistry is more than applying color — it's understanding shape, light, shadow, and the principles that have guided artists for centuries. Every brushstroke is guided by knowledge and intention.",
+    "cta1": "Work With Me",
+    "cta2": "View Portfolio",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "At a Glance",
+    "name": "Ana Jaksic",
+    "intro": "Award-winning global makeup artist, certified MUD educator, and CEO of MUD Studio Vienna — with over 25 years of professional experience. Ana brings a rare combination of classical artistry, scientific precision, and creative vision to every project.",
+    "career": "Her career has taken her across the world — from 8 years as part of the artist training & development team across Scandinavia (Denmark, Sweden, Norway & Iceland), to the IFFA Awards in Macao, the Eurovision Song Contest, and fashion weeks in Milan, Paris, and London. She is a passionate advocate for empowering women through beauty and education worldwide.",
+    "basedInLabel": "Based In",
+    "basedIn": "Vienna, Austria — Available Worldwide",
+    "specialtiesLabel": "Specialties",
+    "specialties": "Editorial, Bridal, Fashion, Artistic Makeup & Education",
+    "awardsLabel": "Awards",
+    "awards": "Best Make-Up Artist — Vienna Awards 2025 · Women of the Year — Look! Magazine",
+    "experienceLabel": "Experience",
+    "experience": "25+ years of professional makeup artistry",
+    "educationLabel": "Education",
+    "educationText": "Certified MUD Educator — CEO & Lead Educator at MUD Studio Vienna",
+    "storyTitle1": "Where Art Meets",
+    "storyTitle2": "Intention",
+    "storyP1": "I'm Ana Jaksic — a global makeup artist, certified educator, and passionate advocate for the art and science behind professional beauty. Based in Vienna, my work spans editorial, bridal, and artistic makeup.",
+    "storyP2": "Professional makeup artistry is far more than applying color to a face. Without analyzing facial shapes, understanding corrective theory, knowing how light and shadow transform and behave on the face — makeup remains guesswork. It is a discipline rooted in the same principles we know from classical paintings and centuries of color theory.",
+    "storyP3": "Every face is a canvas. Every decision — from color to placement — must be intentional, informed, and deeply personal."
+  },
+  "global": {
+    "eyebrow": "Global Experience",
+    "title": "A Career Without Borders",
+    "text": "Over 25 years of professional experience across fashion capitals, international award shows, and prestigious events worldwide — from Copenhagen to Macao, from Milan to Vienna.",
+    "highlightsTitle": "International Highlights",
+    "highlights": [
+      "Scandinavia — 8 years in Artist Training & Development across Denmark, Sweden, Norway & Iceland",
+      "IFFA Awards, Macao",
+      "Eurovision Song Contest, Denmark",
+      "Milan Fashion Week",
+      "Paris Fashion Week",
+      "London Fashion Week"
+    ],
+    "fieldsTitle": "Fields of Work",
+    "fields": [
+      "International Red Carpets",
+      "Film & Television",
+      "Celebrity Styling",
+      "Editorial & Campaign Shoots",
+      "Fashion Shows & Presentations",
+      "Live Television & Award Shows"
+    ]
+  },
+  "stats": {
+    "eyebrow": "Career & Recognition",
+    "title": "A Global Journey in Beauty",
+    "text": "Over 25 years of artistry across fashion capitals, international award shows, and red carpets — from the Eurovision Song Contest in Denmark to the IFFA Awards in Macao — driven by a deep commitment to the craft and the science behind it.",
+    "s1": "Years of Professional Experience",
+    "s2": "Years in Artist Training & Development",
+    "s3": "Years Working in Scandinavia",
+    "s4": "Faces, Stories, Transformations",
+    "cta": "Interested in collaborating?"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What I Offer",
+    "items": [
+      { "title": "Editorial & Fashion", "text": "High-fashion and editorial makeup for magazines, campaigns, and creative projects. Precision-driven artistry that tells a story." },
+      { "title": "Bridal", "text": "Timeless bridal beauty designed to enhance your natural features. From classic elegance to modern glamour." },
+      { "title": "Artistic & Creative", "text": "Conceptual and avant-garde makeup for art projects, performances, and creative collaborations." },
+      { "title": "Education & Mentoring", "text": "Professional makeup training rooted in advanced color theory, corrective technique, and the art of light and shadow." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Selected Work",
+    "title": "Featured Portfolio",
+    "categories": ["Editorial", "Artistic", "Bridal", "Fashion", "Beauty", "Creative"]
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title1": "Master the Art",
+    "title2": "of Color & Form",
+    "text": "Professional makeup artistry is far more than applying color. It demands analyzing facial shapes, understanding corrective theory, and mastering how light and shadow transform the face — the same principles that guided the masters of classical painting.",
+    "text2": "My education programs take you beyond technique into the psychology of color, the science of facial structure, and the art of intentional beauty.",
+    "programs": [
+      "Advanced Color Theory for Professionals",
+      "Shape, Light & Corrective Theory",
+      "Online Masterclasses",
+      "One-on-One Mentoring"
+    ]
+  },
+  "booking": {
+    "eyebrow": "Reserve Your Spot",
+    "title": "Book Your Course",
+    "subtitle": "Secure your place in one of Ana's masterclasses — choose a course, pick a date, and reserve your spot in minutes.",
+    "step1": "1. Choose a Course",
+    "step2": "2. Pick a Date",
+    "step3": "3. Your Details",
+    "step4": "4. Payment",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Message (optional)",
+    "messagePlaceholder": "Anything you'd like Ana to know before your session...",
+    "submit": "Confirm Booking",
+    "selectDatePrompt": "Please select a course and date first",
+    "testBadge": "TEST",
+    "testNotice": "This is a demo course so you can try the full booking & payment flow before real courses go live. You'll be charged a symbolic €1 in Stripe/PayPal test mode.",
+    "paymentIntro": "Choose how you'd like to pay. Your spot is reserved once payment is confirmed.",
+    "payWithCard": "Pay with Card (Stripe)",
+    "payWithPaypal": "Pay with PayPal",
+    "paymentNotConfigured": "Card payments aren't set up yet for this course — please choose PayPal, or contact Ana directly.",
+    "paymentTotal": "Total",
+    "fillDetailsFirst": "Please fill in your name and email first",
+    "successTitle": "Booking Request Sent!",
+    "successText": "Thank you, {{name}}! Your request for \"{{course}}\" on {{date}} has been received. Ana will confirm your booking by email shortly.",
+    "bookAnother": "Book Another Course",
+    "duration": "Duration",
+    "price": "From",
+    "selected": "Selected",
+    "select": "Select",
+    "moreInfo": "More Info",
+    "bookThisCourse": "Book This Course",
+    "backToCourses": "Back to Courses",
+    "courses": [
+      { "title": "Advanced Color Theory Masterclass", "duration": "1 Day", "price": "€450", "description": "A deep dive into color theory, skin undertones, and correction techniques — the science behind every flawless look." },
+      { "title": "Shape, Light & Corrective Theory", "duration": "2 Days", "price": "€780", "description": "Master how light and shadow sculpt the face. Learn contouring and corrective techniques rooted in classical art principles." },
+      { "title": "Bridal Makeup Course", "duration": "1 Day", "price": "€400", "description": "Everything you need to create timeless, photo-ready bridal looks — from skin prep to long-wear techniques." },
+      { "title": "Editorial & Fashion Masterclass", "duration": "2 Days", "price": "€820", "description": "High-fashion techniques for editorial shoots, campaigns and runway — bold, precise, story-driven makeup." },
+      { "title": "Online Masterclass", "duration": "3 Hours (Live)", "price": "€180", "description": "A live, interactive online session covering Ana's core techniques — join from anywhere in the world." },
+      { "title": "One-on-One Mentoring", "duration": "Per Session", "price": "€250", "description": "Personalized 1:1 coaching tailored to your goals, portfolio, or career questions — direct access to Ana's expertise." },
+      { "title": "🧪 Test Course — Try the Booking Flow", "duration": "30 min (Demo)", "price": "€1 (test)", "description": "Try the full booking and payment flow with this demo course before real dates go live." }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Shop",
+    "title": "Products",
+    "subtitle": "A first look at the shop — these are demo products so you can try the checkout flow before real products go live.",
+    "buyNow": "Buy Now",
+    "testBadge": "TEST",
+    "testNotice": "Demo product — charges a symbolic €1 in test mode.",
+    "successTitle": "Order Placed!",
+    "successText": "Thank you, your order for \"{{product}}\" has been received.",
+    "close": "Close",
+    "products": [
+      { "title": "Signature Highlighter Palette", "description": "Ana's go-to warm-tone highlighter palette for editorial glow.", "price": "€1 (test)" },
+      { "title": "Pro Brush Set", "description": "The 8-brush set Ana uses for precision color and corrective work.", "price": "€1 (test)" },
+      { "title": "Color Theory Workbook (PDF)", "description": "A digital companion workbook to the Advanced Color Theory course.", "price": "€1 (test)" }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "instagramTitle": "Follow the Journey",
+    "instagramHandle": "@a.j.makeupandart",
+    "instagramText": "Behind the scenes, latest looks, and daily inspiration. Join the community of beauty lovers and professionals.",
+    "instagramCta": "Follow on Instagram"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "basedIn": "Vienna, Austria — Available Worldwide"
+  }
+}

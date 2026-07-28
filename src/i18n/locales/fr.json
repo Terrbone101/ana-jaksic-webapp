@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "education": "Formation",
+    "shop": "Boutique",
+    "contact": "Contact",
+    "book": "Réserver un cours"
+  },
+  "hero": {
+    "eyebrow": "Maquilleuse & Formatrice Internationale",
+    "title1": "La beauté avec",
+    "title2": "intention",
+    "text": "Là où la théorie des couleurs rencontre l'art classique. Le maquillage professionnel est bien plus que l'application de couleur — c'est comprendre la forme, la lumière, l'ombre et les principes qui guident les artistes depuis des siècles. Chaque coup de pinceau est guidé par le savoir et l'intention.",
+    "cta1": "Travailler avec moi",
+    "cta2": "Voir le portfolio",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "eyebrow": "En un coup d'œil",
+    "name": "Ana Jaksic",
+    "intro": "Maquilleuse internationale primée, formatrice certifiée MUD et CEO de MUD Studio Vienna — avec plus de 25 ans d'expérience professionnelle. Ana allie un rare mélange d'art classique, de précision scientifique et de vision créative à chaque projet.",
+    "career": "Sa carrière l'a menée à travers le monde — de 8 années au sein de l'équipe de formation et développement d'artistes en Scandinavie (Danemark, Suède, Norvège et Islande), aux IFFA Awards à Macao, au Concours Eurovision de la chanson, et aux fashion weeks de Milan, Paris et Londres. Elle défend avec passion l'autonomisation des femmes à travers la beauté et l'éducation dans le monde entier.",
+    "basedInLabel": "Basée à",
+    "basedIn": "Vienne, Autriche — disponible dans le monde entier",
+    "specialtiesLabel": "Spécialités",
+    "specialties": "Editorial, mariage, mode, maquillage artistique & formation",
+    "awardsLabel": "Récompenses",
+    "awards": "Meilleure Maquilleuse — Vienna Awards 2025 · Femme de l'année — Look! Magazine",
+    "experienceLabel": "Expérience",
+    "experience": "25+ ans de maquillage professionnel",
+    "educationLabel": "Formation",
+    "educationText": "Formatrice certifiée MUD — CEO & formatrice principale chez MUD Studio Vienna",
+    "storyTitle1": "Là où l'art rencontre",
+    "storyTitle2": "l'intention",
+    "storyP1": "Je suis Ana Jaksic — maquilleuse internationale, formatrice certifiée et fervente défenseure de l'art et de la science derrière la beauté professionnelle. Basée à Vienne, mon travail couvre l'editorial, le mariage et le maquillage artistique.",
+    "storyP2": "Le maquillage professionnel est bien plus que l'application de couleur sur un visage. Sans analyser les formes du visage, comprendre la théorie corrective, savoir comment la lumière et l'ombre transforment le visage — le maquillage reste approximatif. C'est une discipline enracinée dans les mêmes principes que la peinture classique et des siècles de théorie des couleurs.",
+    "storyP3": "Chaque visage est une toile. Chaque décision — de la couleur au placement — doit être intentionnelle, réfléchie et profondément personnelle."
+  },
+  "global": {
+    "eyebrow": "Expérience internationale",
+    "title": "Une carrière sans frontières",
+    "text": "Plus de 25 ans d'expérience professionnelle dans les capitales de la mode, lors de cérémonies internationales et d'événements prestigieux dans le monde entier — de Copenhague à Macao, de Milan à Vienne.",
+    "highlightsTitle": "Temps forts internationaux",
+    "highlights": [
+      "Scandinavie — 8 ans en formation et développement d'artistes au Danemark, en Suède, en Norvège et en Islande",
+      "IFFA Awards, Macao",
+      "Concours Eurovision de la chanson, Danemark",
+      "Fashion Week de Milan",
+      "Fashion Week de Paris",
+      "Fashion Week de Londres"
+    ],
+    "fieldsTitle": "Domaines d'activité",
+    "fields": [
+      "Tapis rouges internationaux",
+      "Cinéma & télévision",
+      "Stylisme de célébrités",
+      "Shootings editorial & campagnes",
+      "Défilés & présentations de mode",
+      "Télévision en direct & cérémonies"
+    ]
+  },
+  "stats": {
+    "eyebrow": "Carrière & reconnaissance",
+    "title": "Un parcours mondial dans la beauté",
+    "text": "Plus de 25 ans d'art dans les capitales de la mode, lors de cérémonies internationales et sur les tapis rouges — du Concours Eurovision de la chanson au Danemark aux IFFA Awards à Macao — porté par un profond engagement envers le métier et la science qui le sous-tend.",
+    "s1": "Ans d'expérience professionnelle",
+    "s2": "Ans en formation et développement d'artistes",
+    "s3": "Ans de travail en Scandinavie",
+    "s4": "Visages, histoires, transformations",
+    "cta": "Intéressé·e par une collaboration ?"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Ce que je propose",
+    "items": [
+      { "title": "Editorial & Mode", "text": "Maquillage haute couture et editorial pour magazines, campagnes et projets créatifs. Un art précis qui raconte une histoire." },
+      { "title": "Mariage", "text": "Une beauté nuptiale intemporelle qui met en valeur vos traits naturels. De l'élégance classique au glamour moderne." },
+      { "title": "Artistique & Créatif", "text": "Maquillage conceptuel et avant-gardiste pour projets artistiques, performances et collaborations créatives." },
+      { "title": "Formation & Mentorat", "text": "Formation professionnelle en maquillage fondée sur la théorie avancée des couleurs, la technique corrective et l'art de la lumière et de l'ombre." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Travaux sélectionnés",
+    "title": "Portfolio en vedette",
+    "categories": ["Editorial", "Artistique", "Mariage", "Mode", "Beauté", "Créatif"]
+  },
+  "education": {
+    "eyebrow": "Formation",
+    "title1": "Maîtriser l'art de la couleur",
+    "title2": "et de la forme",
+    "text": "Le maquillage professionnel est bien plus que l'application de couleur. Il exige d'analyser les formes du visage, de comprendre la théorie corrective et de maîtriser la façon dont la lumière et l'ombre transforment le visage — les mêmes principes qui ont guidé les maîtres de la peinture classique.",
+    "text2": "Mes programmes de formation vous emmènent au-delà de la technique, dans la psychologie de la couleur, la science de la structure du visage et l'art de la beauté intentionnelle.",
+    "programs": [
+      "Théorie avancée des couleurs pour professionnels",
+      "Forme, lumière & théorie corrective",
+      "Masterclasses en ligne",
+      "Mentorat individuel"
+    ]
+  },
+  "booking": {
+    "eyebrow": "Réservez votre place",
+    "title": "Réservez votre cours",
+    "subtitle": "Réservez votre place dans l'une des masterclasses d'Ana — choisissez un cours, une date, et réservez en quelques minutes.",
+    "step1": "1. Choisissez un cours",
+    "step2": "2. Choisissez une date",
+    "step3": "3. Vos coordonnées",
+    "step4": "4. Paiement",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "message": "Message (facultatif)",
+    "messagePlaceholder": "Tout ce qu'Ana devrait savoir avant votre séance...",
+    "submit": "Confirmer la réservation",
+    "selectDatePrompt": "Veuillez d'abord sélectionner un cours et une date",
+    "testBadge": "TEST",
+    "testNotice": "Ceci est un cours de démonstration pour tester l'ensemble du parcours de réservation et de paiement avant le lancement des vrais cours. Un montant symbolique de 1 € vous sera facturé en mode test Stripe/PayPal.",
+    "paymentIntro": "Choisissez votre mode de paiement. Votre place est réservée dès que le paiement est confirmé.",
+    "payWithCard": "Payer par carte (Stripe)",
+    "payWithPaypal": "Payer avec PayPal",
+    "paymentNotConfigured": "Le paiement par carte n'est pas encore configuré pour ce cours — veuillez choisir PayPal ou contacter Ana directement.",
+    "paymentTotal": "Total",
+    "fillDetailsFirst": "Veuillez d'abord renseigner votre nom et votre e-mail",
+    "successTitle": "Demande de réservation envoyée !",
+    "successText": "Merci, {{name}} ! Votre demande pour « {{course}} » le {{date}} a bien été reçue. Ana confirmera votre réservation par e-mail sous peu.",
+    "bookAnother": "Réserver un autre cours",
+    "duration": "Durée",
+    "price": "À partir de",
+    "selected": "Sélectionné",
+    "select": "Sélectionner",
+    "moreInfo": "Plus d'infos",
+    "bookThisCourse": "Réserver ce cours",
+    "backToCourses": "Retour aux cours",
+    "courses": [
+      { "title": "Masterclass théorie avancée des couleurs", "duration": "1 jour", "price": "450 €", "description": "Une plongée approfondie dans la théorie des couleurs, les sous-tons de peau et les techniques de correction — la science derrière chaque look impeccable." },
+      { "title": "Forme, lumière & théorie corrective", "duration": "2 jours", "price": "780 €", "description": "Apprenez comment la lumière et l'ombre sculptent le visage. Contouring et techniques correctives ancrées dans les principes de l'art classique." },
+      { "title": "Cours de maquillage mariage", "duration": "1 jour", "price": "400 €", "description": "Tout ce dont vous avez besoin pour créer des looks de mariée intemporels et prêts pour la photo — de la préparation de la peau aux techniques longue tenue." },
+      { "title": "Masterclass Editorial & Mode", "duration": "2 jours", "price": "820 €", "description": "Techniques haute couture pour shootings editorial, campagnes et défilés — un maquillage audacieux, précis, qui raconte une histoire." },
+      { "title": "Masterclass en ligne", "duration": "3 heures (en direct)", "price": "180 €", "description": "Une session en ligne interactive en direct couvrant les techniques essentielles d'Ana — rejoignez depuis n'importe où dans le monde." },
+      { "title": "Mentorat individuel", "duration": "Par séance", "price": "250 €", "description": "Coaching individuel personnalisé adapté à vos objectifs, votre portfolio ou vos questions de carrière — accès direct à l'expertise d'Ana." },
+      { "title": "🧪 Cours test — Essayez le parcours de réservation", "duration": "30 min (démo)", "price": "1 € (test)", "description": "Essayez l'ensemble du parcours de réservation et de paiement avec ce cours de démonstration avant le lancement des vraies dates." }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Boutique",
+    "title": "Produits",
+    "subtitle": "Un premier aperçu de la boutique — ce sont des produits de démonstration pour tester le parcours d'achat avant le lancement des vrais produits.",
+    "buyNow": "Acheter maintenant",
+    "testBadge": "TEST",
+    "testNotice": "Produit de démonstration — un montant symbolique de 1 € est facturé en mode test.",
+    "successTitle": "Commande passée !",
+    "successText": "Merci, votre commande pour « {{product}} » a bien été reçue.",
+    "close": "Fermer",
+    "products": [
+      { "title": "Palette Highlighter Signature", "description": "La palette highlighter aux tons chauds préférée d'Ana pour un éclat editorial.", "price": "1 € (test)" },
+      { "title": "Set de pinceaux Pro", "description": "Le set de 8 pinceaux qu'Ana utilise pour un travail de couleur et de correction précis.", "price": "1 € (test)" },
+      { "title": "Cahier théorie des couleurs (PDF)", "description": "Un cahier numérique complémentaire au cours de théorie avancée des couleurs.", "price": "1 € (test)" }
+    ]
+  },
+  "contact": {
+    "title": "Prendre contact",
+    "instagramTitle": "Suivez le parcours",
+    "instagramHandle": "@a.j.makeupandart",
+    "instagramText": "Coulisses, derniers looks et inspiration quotidienne. Rejoignez la communauté des passionnés de beauté et des professionnels.",
+    "instagramCta": "Suivre sur Instagram"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "basedIn": "Vienne, Autriche — disponible dans le monde entier"
+  }
+}

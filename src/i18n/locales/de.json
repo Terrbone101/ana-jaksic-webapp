@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "services": "Leistungen",
+    "portfolio": "Portfolio",
+    "education": "Ausbildung",
+    "shop": "Shop",
+    "contact": "Kontakt",
+    "book": "Kurs buchen"
+  },
+  "hero": {
+    "eyebrow": "Global Makeup Artist & Educator",
+    "title1": "Schönheit mit",
+    "title2": "Intention",
+    "text": "Wo Farbtheorie auf klassische Kunst trifft. Professionelles Make-up ist mehr als das Auftragen von Farbe — es bedeutet, Form, Licht, Schatten und die Prinzipien zu verstehen, die Künstler seit Jahrhunderten leiten. Jeder Pinselstrich folgt Wissen und Absicht.",
+    "cta1": "Mit mir arbeiten",
+    "cta2": "Portfolio ansehen",
+    "scroll": "Scrollen"
+  },
+  "about": {
+    "eyebrow": "Auf einen Blick",
+    "name": "Ana Jaksic",
+    "intro": "Preisgekrönte, international tätige Make-up Artistin, zertifizierte MUD-Educator und CEO von MUD Studio Vienna — mit über 25 Jahren Berufserfahrung. Ana verbindet klassische Kunstfertigkeit, wissenschaftliche Präzision und kreative Vision in jedem Projekt.",
+    "career": "Ihre Karriere führte sie um die ganze Welt — von 8 Jahren im Artist Training & Development Team in Skandinavien (Dänemark, Schweden, Norwegen & Island) über die IFFA Awards in Macao und den Eurovision Song Contest bis zu den Fashion Weeks in Mailand, Paris und London. Sie setzt sich leidenschaftlich dafür ein, Frauen weltweit durch Beauty und Bildung zu stärken.",
+    "basedInLabel": "Standort",
+    "basedIn": "Wien, Österreich — weltweit verfügbar",
+    "specialtiesLabel": "Spezialgebiete",
+    "specialties": "Editorial, Bridal, Fashion, künstlerisches Make-up & Ausbildung",
+    "awardsLabel": "Auszeichnungen",
+    "awards": "Best Make-Up Artist — Vienna Awards 2025 · Women of the Year — Look! Magazine",
+    "experienceLabel": "Erfahrung",
+    "experience": "25+ Jahre professionelle Make-up-Artistik",
+    "educationLabel": "Ausbildung",
+    "educationText": "Zertifizierte MUD-Educator — CEO & Lead Educator bei MUD Studio Vienna",
+    "storyTitle1": "Wo Kunst auf",
+    "storyTitle2": "Intention trifft",
+    "storyP1": "Ich bin Ana Jaksic — eine international tätige Make-up Artistin, zertifizierte Educator und leidenschaftliche Verfechterin der Kunst und Wissenschaft hinter professioneller Schönheit. Von Wien aus reicht meine Arbeit von Editorial über Bridal bis hin zu künstlerischem Make-up.",
+    "storyP2": "Professionelles Make-up ist weit mehr als das Auftragen von Farbe auf ein Gesicht. Ohne die Analyse von Gesichtsformen, das Verständnis korrektiver Theorie und das Wissen, wie Licht und Schatten das Gesicht verändern — bleibt Make-up reine Vermutung. Es ist eine Disziplin, die auf denselben Prinzipien beruht wie die klassische Malerei und Jahrhunderte der Farbtheorie.",
+    "storyP3": "Jedes Gesicht ist eine Leinwand. Jede Entscheidung — von der Farbe bis zur Platzierung — muss bewusst, fundiert und zutiefst persönlich sein."
+  },
+  "global": {
+    "eyebrow": "Internationale Erfahrung",
+    "title": "Eine Karriere ohne Grenzen",
+    "text": "Über 25 Jahre Berufserfahrung in Modehauptstädten, bei internationalen Award-Shows und prestigeträchtigen Events weltweit — von Kopenhagen bis Macao, von Mailand bis Wien.",
+    "highlightsTitle": "Internationale Highlights",
+    "highlights": [
+      "Skandinavien — 8 Jahre im Artist Training & Development in Dänemark, Schweden, Norwegen & Island",
+      "IFFA Awards, Macao",
+      "Eurovision Song Contest, Dänemark",
+      "Milan Fashion Week",
+      "Paris Fashion Week",
+      "London Fashion Week"
+    ],
+    "fieldsTitle": "Tätigkeitsbereiche",
+    "fields": [
+      "Internationale Red Carpets",
+      "Film & Fernsehen",
+      "Celebrity Styling",
+      "Editorial- & Kampagnenshootings",
+      "Modenschauen & Präsentationen",
+      "Live-Fernsehen & Award-Shows"
+    ]
+  },
+  "stats": {
+    "eyebrow": "Karriere & Anerkennung",
+    "title": "Eine globale Reise durch die Beauty-Welt",
+    "text": "Über 25 Jahre Artistik in Modehauptstädten, bei internationalen Award-Shows und auf dem roten Teppich — vom Eurovision Song Contest in Dänemark bis zu den IFFA Awards in Macao — getragen von tiefem Engagement für das Handwerk und die Wissenschaft dahinter.",
+    "s1": "Jahre professionelle Erfahrung",
+    "s2": "Jahre im Artist Training & Development",
+    "s3": "Jahre Tätigkeit in Skandinavien",
+    "s4": "Gesichter, Geschichten, Transformationen",
+    "cta": "Interesse an einer Zusammenarbeit?"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "title": "Mein Angebot",
+    "items": [
+      { "title": "Editorial & Fashion", "text": "High-Fashion- und Editorial-Make-up für Magazine, Kampagnen und kreative Projekte. Präzise Artistik, die eine Geschichte erzählt." },
+      { "title": "Bridal", "text": "Zeitlose Brautschönheit, die deine natürlichen Züge betont. Von klassischer Eleganz bis modernem Glamour." },
+      { "title": "Künstlerisch & Kreativ", "text": "Konzeptuelles und avantgardistisches Make-up für Kunstprojekte, Performances und kreative Kollaborationen." },
+      { "title": "Ausbildung & Mentoring", "text": "Professionelles Make-up-Training auf Basis fortgeschrittener Farbtheorie, korrektiver Technik und der Kunst von Licht und Schatten." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Ausgewählte Arbeiten",
+    "title": "Portfolio-Highlights",
+    "categories": ["Editorial", "Künstlerisch", "Bridal", "Fashion", "Beauty", "Kreativ"]
+  },
+  "education": {
+    "eyebrow": "Ausbildung",
+    "title1": "Die Kunst von Farbe",
+    "title2": "und Form meistern",
+    "text": "Professionelles Make-up ist weit mehr als das Auftragen von Farbe. Es erfordert die Analyse von Gesichtsformen, das Verständnis korrektiver Theorie und das Meistern der Art, wie Licht und Schatten das Gesicht verändern — dieselben Prinzipien, die schon die Meister der klassischen Malerei leiteten.",
+    "text2": "Meine Ausbildungsprogramme führen dich über die Technik hinaus — in die Psychologie der Farbe, die Wissenschaft der Gesichtsstruktur und die Kunst bewusster Schönheit.",
+    "programs": [
+      "Fortgeschrittene Farbtheorie für Profis",
+      "Form, Licht & korrektive Theorie",
+      "Online-Masterclasses",
+      "Einzel-Mentoring"
+    ]
+  },
+  "booking": {
+    "eyebrow": "Sichere dir deinen Platz",
+    "title": "Kurs buchen",
+    "subtitle": "Sichere dir deinen Platz in einer von Anas Masterclasses — wähle einen Kurs, ein Datum und reserviere in wenigen Minuten.",
+    "step1": "1. Kurs wählen",
+    "step2": "2. Datum wählen",
+    "step3": "3. Deine Daten",
+    "step4": "4. Zahlung",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "message": "Nachricht (optional)",
+    "messagePlaceholder": "Alles, was Ana vor deiner Session wissen sollte...",
+    "submit": "Buchung bestätigen",
+    "selectDatePrompt": "Bitte zuerst Kurs und Datum auswählen",
+    "testBadge": "TEST",
+    "testNotice": "Dies ist ein Demo-Kurs, mit dem du den kompletten Buchungs- und Zahlungsablauf testen kannst, bevor echte Kurse live gehen. Es wird ein symbolischer Betrag von 1 € im Stripe/PayPal-Testmodus abgebucht.",
+    "paymentIntro": "Wähle, wie du bezahlen möchtest. Dein Platz ist reserviert, sobald die Zahlung bestätigt ist.",
+    "payWithCard": "Mit Karte bezahlen (Stripe)",
+    "payWithPaypal": "Mit PayPal bezahlen",
+    "paymentNotConfigured": "Kartenzahlung ist für diesen Kurs noch nicht eingerichtet — bitte wähle PayPal oder kontaktiere Ana direkt.",
+    "paymentTotal": "Gesamt",
+    "fillDetailsFirst": "Bitte zuerst Name und E-Mail ausfüllen",
+    "successTitle": "Buchungsanfrage gesendet!",
+    "successText": "Danke, {{name}}! Deine Anfrage für \"{{course}}\" am {{date}} ist eingegangen. Ana bestätigt deine Buchung in Kürze per E-Mail.",
+    "bookAnother": "Weiteren Kurs buchen",
+    "duration": "Dauer",
+    "price": "Ab",
+    "selected": "Ausgewählt",
+    "select": "Auswählen",
+    "moreInfo": "Mehr Infos",
+    "bookThisCourse": "Diesen Kurs buchen",
+    "backToCourses": "Zurück zur Übersicht",
+    "courses": [
+      { "title": "Fortgeschrittene Farbtheorie Masterclass", "duration": "1 Tag", "price": "450 €", "description": "Ein tiefer Einblick in Farbtheorie, Hauttöne und Korrekturtechniken — die Wissenschaft hinter jedem makellosen Look." },
+      { "title": "Form, Licht & korrektive Theorie", "duration": "2 Tage", "price": "780 €", "description": "Lerne, wie Licht und Schatten das Gesicht formen. Konturierung und Korrekturtechniken nach klassischen Kunstprinzipien." },
+      { "title": "Bridal Make-up Kurs", "duration": "1 Tag", "price": "400 €", "description": "Alles, was du für zeitlose, fotogene Brautlooks brauchst — von der Hautvorbereitung bis zu Langzeit-Techniken." },
+      { "title": "Editorial & Fashion Masterclass", "duration": "2 Tage", "price": "820 €", "description": "High-Fashion-Techniken für Editorial-Shootings, Kampagnen und Laufsteg — mutiges, präzises, erzählerisches Make-up." },
+      { "title": "Online-Masterclass", "duration": "3 Stunden (Live)", "price": "180 €", "description": "Eine Live-Online-Session mit Anas Kerntechniken — von überall auf der Welt dabei sein." },
+      { "title": "Einzel-Mentoring", "duration": "Pro Sitzung", "price": "250 €", "description": "Individuelles 1:1-Coaching, abgestimmt auf deine Ziele, dein Portfolio oder Karrierefragen — direkter Zugang zu Anas Expertise." },
+      { "title": "🧪 Testkurs — Buchungsablauf ausprobieren", "duration": "30 Min (Demo)", "price": "1 € (Test)", "description": "Teste den kompletten Buchungs- und Zahlungsablauf mit diesem Demo-Kurs, bevor echte Termine live gehen." }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Shop",
+    "title": "Produkte",
+    "subtitle": "Ein erster Blick in den Shop — das sind Demo-Produkte, mit denen du den Checkout-Ablauf testen kannst, bevor echte Produkte live gehen.",
+    "buyNow": "Jetzt kaufen",
+    "testBadge": "TEST",
+    "testNotice": "Demo-Produkt — im Testmodus wird ein symbolischer Betrag von 1 € abgebucht.",
+    "successTitle": "Bestellung aufgegeben!",
+    "successText": "Danke, deine Bestellung für \"{{product}}\" ist eingegangen.",
+    "close": "Schließen",
+    "products": [
+      { "title": "Signature Highlighter Palette", "description": "Anas Lieblings-Highlighter-Palette in warmen Tönen für editorialen Glow.", "price": "1 € (Test)" },
+      { "title": "Pro Pinsel-Set", "description": "Das 8-teilige Pinsel-Set, das Ana für präzise Farb- und Korrekturarbeit verwendet.", "price": "1 € (Test)" },
+      { "title": "Farbtheorie-Workbook (PDF)", "description": "Ein digitales Begleit-Workbook zum Kurs Fortgeschrittene Farbtheorie.", "price": "1 € (Test)" }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "instagramTitle": "Folge der Reise",
+    "instagramHandle": "@a.j.makeupandart",
+    "instagramText": "Behind the Scenes, neueste Looks und tägliche Inspiration. Werde Teil der Community von Beauty-Liebhabern und Profis.",
+    "instagramCta": "Auf Instagram folgen"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "basedIn": "Wien, Österreich — weltweit verfügbar"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "about": "O meni",
+    "services": "Usluge",
+    "portfolio": "Portfolio",
+    "education": "Edukacija",
+    "shop": "Prodavnica",
+    "contact": "Kontakt",
+    "book": "Rezerviši kurs"
+  },
+  "hero": {
+    "eyebrow": "Globalni Makeup Artist & Edukator",
+    "title1": "Lepota sa",
+    "title2": "namerom",
+    "text": "Tamo gde se teorija boja susreće sa klasičnom umetnošću. Profesionalna vizažistika je mnogo više od nanošenja boje — to je razumevanje oblika, svetla, senke i principa koji vode umetnike vekovima. Svaki potez četkicom vodi znanje i namera.",
+    "cta1": "Radi sa mnom",
+    "cta2": "Pogledaj portfolio",
+    "scroll": "Skroluj"
+  },
+  "about": {
+    "eyebrow": "Ukratko",
+    "name": "Ana Jaksić",
+    "intro": "Nagrađivana globalna vizažistkinja, sertifikovana MUD edukatorka i CEO MUD Studio Vienna — sa preko 25 godina profesionalnog iskustva. Ana spaja klasičnu umetnost, naučnu preciznost i kreativnu viziju u svakom projektu.",
+    "career": "Njena karijera ju je odvela širom sveta — od 8 godina u timu za obuku i razvoj umetnika širom Skandinavije (Danska, Švedska, Norveška i Island), preko IFFA nagrada u Makau i Pesme Evrovizije, do nedelja mode u Milanu, Parizu i Londonu. Strastveno se zalaže za osnaživanje žena kroz lepotu i edukaciju širom sveta.",
+    "basedInLabel": "Lokacija",
+    "basedIn": "Beč, Austrija — dostupna širom sveta",
+    "specialtiesLabel": "Specijalnosti",
+    "specialties": "Editorial, venčanja, moda, umetnički mejkap i edukacija",
+    "awardsLabel": "Nagrade",
+    "awards": "Najbolji Make-Up Artist — Vienna Awards 2025 · Žena godine — Look! Magazine",
+    "experienceLabel": "Iskustvo",
+    "experience": "25+ godina profesionalne vizažistike",
+    "educationLabel": "Edukacija",
+    "educationText": "Sertifikovana MUD edukatorka — CEO i glavna edukatorka u MUD Studio Vienna",
+    "storyTitle1": "Tamo gde se umetnost",
+    "storyTitle2": "susreće sa namerom",
+    "storyP1": "Ja sam Ana Jaksić — globalna vizažistkinja, sertifikovana edukatorka i strastveni zagovornik umetnosti i nauke iza profesionalne lepote. Sa bazom u Beču, moj rad obuhvata editorial, venčanja i umetnički mejkap.",
+    "storyP2": "Profesionalna vizažistika je mnogo više od nanošenja boje na lice. Bez analize oblika lica, razumevanja korektivne teorije i poznavanja kako svetlo i senka menjaju lice — mejkap ostaje nagađanje. To je disciplina utemeljena na istim principima koje poznajemo iz klasičnog slikarstva i vekova teorije boja.",
+    "storyP3": "Svako lice je platno. Svaka odluka — od boje do postavljanja — mora biti namerna, informisana i duboko lična."
+  },
+  "global": {
+    "eyebrow": "Globalno iskustvo",
+    "title": "Karijera bez granica",
+    "text": "Preko 25 godina profesionalnog iskustva u modnim prestonicama, na međunarodnim dodelama nagrada i prestižnim događajima širom sveta — od Kopenhagena do Makaa, od Milana do Beča.",
+    "highlightsTitle": "Međunarodni highlights",
+    "highlights": [
+      "Skandinavija — 8 godina u obuci i razvoju umetnika u Danskoj, Švedskoj, Norveškoj i Islandu",
+      "IFFA nagrade, Makao",
+      "Pesma Evrovizije, Danska",
+      "Nedelja mode u Milanu",
+      "Nedelja mode u Parizu",
+      "Nedelja mode u Londonu"
+    ],
+    "fieldsTitle": "Oblasti rada",
+    "fields": [
+      "Međunarodni crveni tepisi",
+      "Film i televizija",
+      "Stilizovanje poznatih ličnosti",
+      "Editorial i kampanje",
+      "Modne revije i prezentacije",
+      "Uživo televizija i dodele nagrada"
+    ]
+  },
+  "stats": {
+    "eyebrow": "Karijera i priznanja",
+    "title": "Globalno putovanje kroz svet lepote",
+    "text": "Preko 25 godina umetnosti u modnim prestonicama, na međunarodnim dodelama nagrada i crvenim tepisima — od Pesme Evrovizije u Danskoj do IFFA nagrada u Makau — vođeno dubokom posvećenošću zanatu i nauci iza njega.",
+    "s1": "Godina profesionalnog iskustva",
+    "s2": "Godina u obuci i razvoju umetnika",
+    "s3": "Godina rada u Skandinaviji",
+    "s4": "Lica, priče, transformacije",
+    "cta": "Zainteresovani za saradnju?"
+  },
+  "services": {
+    "eyebrow": "Usluge",
+    "title": "Šta nudim",
+    "items": [
+      { "title": "Editorial i moda", "text": "High-fashion i editorial mejkap za magazine, kampanje i kreativne projekte. Precizna umetnost koja priča priču." },
+      { "title": "Venčanja", "text": "Bezvremenska lepota za mladu koja naglašava prirodne crte. Od klasične elegancije do modernog glamura." },
+      { "title": "Umetnički i kreativni", "text": "Konceptualni i avangardni mejkap za umetničke projekte, performanse i kreativne saradnje." },
+      { "title": "Edukacija i mentorstvo", "text": "Profesionalna obuka za vizažiste zasnovana na naprednoj teoriji boja, korektivnoj tehnici i umetnosti svetla i senke." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Izabrani radovi",
+    "title": "Istaknuti portfolio",
+    "categories": ["Editorial", "Umetnički", "Venčanja", "Moda", "Beauty", "Kreativno"]
+  },
+  "education": {
+    "eyebrow": "Edukacija",
+    "title1": "Ovladaj veštinom boje",
+    "title2": "i forme",
+    "text": "Profesionalna vizažistika je mnogo više od nanošenja boje. Zahteva analizu oblika lica, razumevanje korektivne teorije i ovladavanje time kako svetlo i senka menjaju lice — iste principe koji su vodili majstore klasičnog slikarstva.",
+    "text2": "Moji edukativni programi vode te dalje od tehnike — u psihologiju boje, nauku o strukturi lica i umetnost namerne lepote.",
+    "programs": [
+      "Napredna teorija boja za profesionalce",
+      "Oblik, svetlo i korektivna teorija",
+      "Online masterclass-ovi",
+      "Individualno mentorstvo"
+    ]
+  },
+  "booking": {
+    "eyebrow": "Rezerviši svoje mesto",
+    "title": "Rezerviši kurs",
+    "subtitle": "Obezbedi svoje mesto na jednom od Aninih masterclass-ova — izaberi kurs, datum i rezerviši za par minuta.",
+    "step1": "1. Izaberi kurs",
+    "step2": "2. Izaberi datum",
+    "step3": "3. Tvoji podaci",
+    "step4": "4. Plaćanje",
+    "name": "Ime i prezime",
+    "email": "Email adresa",
+    "phone": "Broj telefona",
+    "message": "Poruka (opciono)",
+    "messagePlaceholder": "Sve što bi Ana trebalo da zna pre tvoje sesije...",
+    "submit": "Potvrdi rezervaciju",
+    "selectDatePrompt": "Prvo izaberi kurs i datum",
+    "testBadge": "TEST",
+    "testNotice": "Ovo je demo kurs kako bi mogao/mogla da isprobaš ceo proces rezervacije i plaćanja pre nego što pravi kursevi budu dostupni. Biće naplaćen simbolični iznos od 1 € u Stripe/PayPal test režimu.",
+    "paymentIntro": "Izaberi način plaćanja. Tvoje mesto je rezervisano čim se plaćanje potvrdi.",
+    "payWithCard": "Plati karticom (Stripe)",
+    "payWithPaypal": "Plati preko PayPal-a",
+    "paymentNotConfigured": "Plaćanje karticom još nije podešeno za ovaj kurs — izaberi PayPal ili kontaktiraj Anu direktno.",
+    "paymentTotal": "Ukupno",
+    "fillDetailsFirst": "Prvo popuni ime i email",
+    "successTitle": "Zahtev za rezervaciju poslat!",
+    "successText": "Hvala, {{name}}! Tvoj zahtev za \"{{course}}\" dana {{date}} je primljen. Ana će uskoro potvrditi rezervaciju putem email-a.",
+    "bookAnother": "Rezerviši još jedan kurs",
+    "duration": "Trajanje",
+    "price": "Od",
+    "selected": "Izabrano",
+    "select": "Izaberi",
+    "moreInfo": "Više informacija",
+    "bookThisCourse": "Rezerviši ovaj kurs",
+    "backToCourses": "Nazad na kurseve",
+    "courses": [
+      { "title": "Napredna teorija boja Masterclass", "duration": "1 dan", "price": "450 €", "description": "Dubinski uvod u teoriju boja, podtonove kože i korektivne tehnike — nauka iza svakog besprekornog izgleda." },
+      { "title": "Oblik, svetlo i korektivna teorija", "duration": "2 dana", "price": "780 €", "description": "Nauči kako svetlo i senka oblikuju lice. Konturisanje i korektivne tehnike zasnovane na principima klasične umetnosti." },
+      { "title": "Kurs za mejkap za venčanja", "duration": "1 dan", "price": "400 €", "description": "Sve što ti je potrebno za bezvremenske, foto-spremne venčane izgleda — od pripreme kože do tehnika dugotrajnosti." },
+      { "title": "Editorial i moda Masterclass", "duration": "2 dana", "price": "820 €", "description": "High-fashion tehnike za editorial snimanja, kampanje i modne piste — hrabar, precizan mejkap koji priča priču." },
+      { "title": "Online Masterclass", "duration": "3 sata (uživo)", "price": "180 €", "description": "Uživo, interaktivna online sesija koja pokriva Anine osnovne tehnike — pridruži se odakle god da si." },
+      { "title": "Individualno mentorstvo", "duration": "Po sesiji", "price": "250 €", "description": "Personalizovani 1:1 koučing prilagođen tvojim ciljevima, portfoliju ili pitanjima o karijeri — direktan pristup Aninoj ekspertizi." },
+      { "title": "🧪 Test kurs — Isprobaj proces rezervacije", "duration": "30 min (Demo)", "price": "1 € (test)", "description": "Isprobaj ceo proces rezervacije i plaćanja sa ovim demo kursom pre nego što pravi termini budu dostupni." }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Prodavnica",
+    "title": "Proizvodi",
+    "subtitle": "Prvi pogled na prodavnicu — ovo su demo proizvodi kako bi mogao/mogla da isprobaš proces kupovine pre nego što pravi proizvodi budu dostupni.",
+    "buyNow": "Kupi odmah",
+    "testBadge": "TEST",
+    "testNotice": "Demo proizvod — u test režimu se naplaćuje simbolični iznos od 1 €.",
+    "successTitle": "Porudžbina poslata!",
+    "successText": "Hvala, tvoja porudžbina za \"{{product}}\" je primljena.",
+    "close": "Zatvori",
+    "products": [
+      { "title": "Signature Highlighter Paleta", "description": "Anina omiljena paleta hajlajtera u toplim tonovima za editorial sjaj.", "price": "1 € (test)" },
+      { "title": "Pro set četkica", "description": "Set od 8 četkica koje Ana koristi za precizan rad sa bojom i korekcijama.", "price": "1 € (test)" },
+      { "title": "Radna sveska za teoriju boja (PDF)", "description": "Digitalna prateća radna sveska uz kurs Napredna teorija boja.", "price": "1 € (test)" }
+    ]
+  },
+  "contact": {
+    "title": "Stupi u kontakt",
+    "instagramTitle": "Prati putovanje",
+    "instagramHandle": "@a.j.makeupandart",
+    "instagramText": "Iza scene, najnoviji izgledi i svakodnevna inspiracija. Pridruži se zajednici ljubitelja lepote i profesionalaca.",
+    "instagramCta": "Prati na Instagramu"
+  },
+  "footer": {
+    "rights": "Sva prava zadržana.",
+    "basedIn": "Beč, Austrija — dostupna širom sveta"
+  }
+}
