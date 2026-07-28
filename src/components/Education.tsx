@@ -41,10 +41,7 @@ export default function Education() {
             ))}
           </ul>
 
-          <a
-            href="#booking"
-            className="mt-9 inline-block rounded-full bg-rose px-8 py-3 text-sm font-semibold text-ivory shadow-md shadow-rose/30 transition-transform hover:scale-105"
-          >
+          <a href="#booking" className="btn btn-primary mt-9">
             {t("nav.book")}
           </a>
         </div>

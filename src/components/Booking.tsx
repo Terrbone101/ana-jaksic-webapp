@@ -109,7 +109,7 @@ export default function Booking() {
                   <button
                     key={c.id}
                     onClick={() => openCourse(i)}
-                    className="group overflow-hidden rounded-2xl border border-espresso/10 bg-white text-left shadow-sm transition-shadow hover:shadow-lg"
+                    className="group flex flex-col overflow-hidden rounded-2xl border border-espresso/10 bg-white text-left shadow-sm transition-shadow hover:shadow-lg"
                   >
                     <div className="relative aspect-[4/3] overflow-hidden">
                       <img
@@ -125,7 +125,7 @@ export default function Booking() {
                         </span>
                       )}
                     </div>
-                    <div className="p-5">
+                    <div className="flex flex-1 flex-col p-5">
                       <p className="font-serif text-lg leading-snug text-espresso">{text.title}</p>
                       <div className="mt-3 flex items-center justify-between text-xs text-espresso-light">
                         <span className="flex items-center gap-1">
@@ -133,7 +133,7 @@ export default function Booking() {
                         </span>
                         <span className="font-semibold text-rose">{text.price}</span>
                       </div>
-                      <span className="mt-4 inline-block text-xs font-semibold uppercase tracking-wide text-gold group-hover:underline">
+                      <span className="mt-auto inline-block pt-4 text-xs font-semibold uppercase tracking-wide text-gold group-hover:underline">
                         {t("booking.moreInfo")} →
                       </span>
                     </div>
@@ -167,10 +167,7 @@ export default function Booking() {
                       date: success.date,
                     })}
                   </p>
-                  <button
-                    onClick={closeDetail}
-                    className="mt-8 rounded-full bg-espresso px-7 py-3 text-sm font-semibold text-ivory transition-transform hover:scale-105"
-                  >
+                  <button onClick={closeDetail} className="btn btn-dark mt-8">
                     {t("booking.bookAnother")}
                   </button>
                 </div>
@@ -232,7 +229,7 @@ export default function Booking() {
                           <button
                             disabled={!date}
                             onClick={() => setStep("details")}
-                            className="mt-5 block w-full rounded-full bg-espresso px-6 py-3 text-sm font-semibold text-ivory transition-transform enabled:hover:scale-105 disabled:opacity-30"
+                            className="btn btn-dark mt-5 w-full"
                           >
                             {t("booking.step3")} →
                           </button>
@@ -272,14 +269,15 @@ export default function Booking() {
                           <div className="flex gap-3 pt-1">
                             <button
                               onClick={() => setStep("date")}
-                              className="rounded-full border border-espresso/15 px-5 py-3 text-sm font-semibold text-espresso"
+                              className="btn btn-outline-dark btn-icon"
+                              aria-label={t("booking.step2")}
                             >
                               ←
                             </button>
                             <button
                               disabled={!detailsFilled}
                               onClick={() => setStep("payment")}
-                              className="flex-1 rounded-full bg-espresso px-6 py-3 text-sm font-semibold text-ivory transition-transform enabled:hover:scale-105 disabled:opacity-30"
+                              className="btn btn-dark flex-1"
                             >
                               {t("booking.step4")} →
                             </button>

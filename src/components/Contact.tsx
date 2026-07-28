@@ -26,7 +26,7 @@ export default function Contact() {
           href="https://www.instagram.com/a.j.makeupandart/"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 inline-flex items-center gap-2 rounded-full bg-ivory px-7 py-3 text-sm font-semibold text-espresso transition-transform hover:scale-105"
+          className="btn btn-light mt-8"
         >
           <InstagramIcon size={16} />
           {t("contact.instagramCta")}

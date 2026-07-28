@@ -57,16 +57,10 @@ export default function Hero() {
           transition={{ delay: 0.65, duration: 0.7 }}
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
         >
-          <a
-            href="#booking"
-            className="rounded-full bg-rose px-8 py-3.5 text-sm font-semibold tracking-wide text-ivory shadow-lg shadow-rose/30 transition-transform hover:scale-105 hover:bg-rose-dark"
-          >
+          <a href="#booking" className="btn btn-primary">
             {t("hero.cta1")}
           </a>
-          <a
-            href="#portfolio"
-            className="rounded-full border border-ivory/40 px-8 py-3.5 text-sm font-semibold tracking-wide text-ivory transition-colors hover:bg-ivory/10"
-          >
+          <a href="#portfolio" className="btn btn-outline-light">
             {t("hero.cta2")}
           </a>
         </motion.div>

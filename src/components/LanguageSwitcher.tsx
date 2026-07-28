@@ -24,7 +24,7 @@ export default function LanguageSwitcher({ dark = false }: { dark?: boolean }) {
             key={lang.code}
             onClick={() => i18n.changeLanguage(lang.code)}
             aria-current={active}
-            className={`rounded-full px-2.5 py-1 transition-colors cursor-pointer ${
+            className={`w-9 rounded-full py-1 text-center transition-colors cursor-pointer ${
               active
                 ? "bg-gold text-ivory"
                 : dark

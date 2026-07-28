@@ -63,10 +63,7 @@ export default function Stats() {
           className="mt-16 text-center"
         >
           <p className="mb-4 font-serif text-xl text-espresso">{t("stats.cta")}</p>
-          <a
-            href="#contact"
-            className="inline-block rounded-full bg-espresso px-8 py-3 text-sm font-semibold text-ivory transition-transform hover:scale-105"
-          >
+          <a href="#contact" className="btn btn-dark">
             {t("nav.contact")}
           </a>
         </motion.div>

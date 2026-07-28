@@ -62,20 +62,19 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-4 lg:flex">
           <LanguageSwitcher dark={scrolled} />
-          <a
-            href="#booking"
-            className="rounded-full bg-rose px-5 py-2.5 text-sm font-semibold text-ivory shadow-md shadow-rose/30 transition-transform hover:scale-105 hover:bg-rose-dark"
-          >
+          <a href="#booking" className="btn btn-primary btn-sm">
             {t("nav.book")}
           </a>
         </div>
 
         <button
-          className={`lg:hidden ${scrolled ? "text-espresso" : "text-ivory"}`}
+          className={`-mr-2 flex h-12 w-12 items-center justify-center lg:hidden ${
+            scrolled ? "text-espresso" : "text-ivory"
+          }`}
           onClick={() => setOpen((o) => !o)}
           aria-label="Menu"
         >
-          {open ? <X size={26} /> : <Menu size={26} />}
+          {open ? <X size={32} /> : <Menu size={32} />}
         </button>
       </nav>
 
@@ -97,11 +96,7 @@ export default function Navbar() {
                 {t(`nav.${link.key}`)}
               </a>
             ))}
-            <a
-              href="#booking"
-              onClick={() => setOpen(false)}
-              className="rounded-full bg-rose px-5 py-2.5 text-center text-sm font-semibold text-ivory"
-            >
+            <a href="#booking" onClick={() => setOpen(false)} className="btn btn-primary justify-center">
               {t("nav.book")}
             </a>
             <LanguageSwitcher dark />

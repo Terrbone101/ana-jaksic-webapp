@@ -27,7 +27,7 @@ export default function PaymentButtons({
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => onPaid("stripe")}
-          className="flex w-full max-w-xs items-center justify-center gap-2 rounded-full bg-espresso px-6 py-3 text-sm font-semibold text-ivory transition-transform hover:scale-105"
+          className="btn btn-dark w-full max-w-xs"
         >
           <CreditCard size={16} />
           {t("booking.payWithCard")}

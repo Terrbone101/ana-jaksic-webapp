@@ -82,7 +82,7 @@ export default function Shop() {
                     {!isOpen && (
                       <button
                         onClick={() => openProduct(i)}
-                        className="rounded-full bg-espresso px-5 py-2 text-xs font-semibold text-ivory transition-transform hover:scale-105"
+                        className="btn btn-dark btn-sm"
                       >
                         {t("shop.buyNow")}
                       </button>
