@@ -1,0 +1,45 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          VITE_STRIPE_PUBLISHABLE_KEY: ${{ secrets.VITE_STRIPE_PUBLISHABLE_KEY }}
+          VITE_STRIPE_LINK_TEST_COURSE: ${{ secrets.VITE_STRIPE_LINK_TEST_COURSE }}
+          VITE_STRIPE_LINK_COLOR_THEORY: ${{ secrets.VITE_STRIPE_LINK_COLOR_THEORY }}
+          VITE_STRIPE_LINK_SHAPE_LIGHT: ${{ secrets.VITE_STRIPE_LINK_SHAPE_LIGHT }}
+          VITE_STRIPE_LINK_BRIDAL: ${{ secrets.VITE_STRIPE_LINK_BRIDAL }}
+          VITE_STRIPE_LINK_EDITORIAL: ${{ secrets.VITE_STRIPE_LINK_EDITORIAL }}
+          VITE_STRIPE_LINK_ONLINE: ${{ secrets.VITE_STRIPE_LINK_ONLINE }}
+          VITE_STRIPE_LINK_MENTORING: ${{ secrets.VITE_STRIPE_LINK_MENTORING }}
+          VITE_STRIPE_LINK_PRODUCT_PALETTE: ${{ secrets.VITE_STRIPE_LINK_PRODUCT_PALETTE }}
+          VITE_STRIPE_LINK_PRODUCT_BRUSHES: ${{ secrets.VITE_STRIPE_LINK_PRODUCT_BRUSHES }}
+          VITE_STRIPE_LINK_PRODUCT_WORKBOOK: ${{ secrets.VITE_STRIPE_LINK_PRODUCT_WORKBOOK }}
+          VITE_PAYPAL_CLIENT_ID: ${{ secrets.VITE_PAYPAL_CLIENT_ID }}
+      - uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          directory: dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

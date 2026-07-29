@@ -1,32 +1,39 @@
-# React + TypeScript + Vite
+# Ana Jaksic — Portfolio, Kursbuchung & Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React + TypeScript + Vite. Enthält Portfolio, Kursbuchung (Stripe/PayPal) und einen kleinen Shop.
 
-Currently, two official plugins are available:
+## Lokale Entwicklung
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+cp .env.example .env   # eigene Stripe/PayPal Keys eintragen
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Deployment
+
+Die Seite kann parallel über **zwei** Wege veröffentlicht werden — beide bauen automatisch bei jedem Push auf `main`, und beide lassen sich jederzeit manuell erneut auslösen (GitHub → Actions → Workflow → "Run workflow").
+
+### Option A: Cloudflare Pages (empfohlen für die Custom Domain)
+
+**Einmalige Einrichtung:**
+
+1. In Cloudflare: **Workers & Pages → Create → Pages → Connect to Git** und dieses Repo auswählen.
+   - Build command: `npm run build`
+   - Build output directory: `dist`
+2. Oder, falls lieber über GitHub Actions (`.github/workflows/deploy-cloudflare.yml`) deployt werden soll, in Cloudflare einen **API Token** erstellen (Berechtigung "Cloudflare Pages — Edit") und in den GitHub-Repo-Settings unter **Secrets and variables → Actions** hinterlegen:
+   - `CLOUDFLARE_API_TOKEN`
+   - `CLOUDFLARE_ACCOUNT_ID`
+   - `CLOUDFLARE_PROJECT_NAME` (Name des Pages-Projekts in Cloudflare)
+3. Zusätzlich die gleichen `VITE_...` Secrets wie in `.env.example` hinterlegen, damit Stripe/PayPal auch im Build funktionieren.
+4. Custom Domain (`anajaksic.com`) im Cloudflare-Pages-Projekt unter **Custom domains** hinzufügen.
+
+Danach: jeder Push auf `main` veröffentlicht automatisch, und über den "Run workflow"-Button (oder "Retry deployment" in Cloudflare) kann jederzeit manuell neu veröffentlicht werden.
+
+### Option B: GitHub Pages
+
+Bereits eingerichtet über `.github/workflows/deploy.yml`, nutzt die Custom Domain aus `public/CNAME`. Erfordert dieselben `VITE_...` Secrets in den GitHub-Repo-Settings.
+
+## Umgebungsvariablen
+
+Siehe `.env.example` — alles sind öffentliche/publishable Keys, niemals Secret Keys in dieses Frontend eintragen.
