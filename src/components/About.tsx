@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import AnimatedSection from "./AnimatedSection";
 
 const PORTRAIT =
-  "https://images.squarespace-cdn.com/content/v1/644d5ee76d1f3424475d4cbe/a6764c93-e434-4d45-98bd-b2928d8ff921/DSC_0508.JPG";
+  "https://images.squarespace-cdn.com/content/v1/644d5ee76d1f3424475d4cbe/4dad5489-0c49-4bbe-8fe9-7cffb0f6eeea/IMG_0638.jpg?format=1000w";
 
 export default function About() {
   const { t } = useTranslation();
