@@ -35,6 +35,28 @@ real keys — see "Open TODOs").
   Pages (relative Vite `base: './'`), kept as a fallback/secondary
   deploy target. Not the primary one.
 
+### Critical gotcha: don't add a `public/_redirects` file
+
+A `public/_redirects` file (`/* /index.html 200`, the classic Cloudflare
+**Pages** SPA-fallback convention) was added early on and then broke
+**every single deploy for several days** without anyone noticing —
+the build log looks almost entirely successful (assets clone/install/
+build all green) and only fails at the very last step with:
+
+```
+[ERROR] A request to the Cloudflare API (.../workers/scripts/...)
+Invalid _redirects configuration:
+Line 1: Infinite loop detected in this rule.
+```
+
+Cloudflare's newer Workers static-assets redirect validator rejects
+that pattern as an infinite loop. SPA fallback is already handled by
+`wrangler.jsonc`'s `assets.not_found_handling: "single-page-application"`
+— **do not add a `_redirects` file back**, it's redundant and breaks
+the deploy. If a deploy "succeeds" in the sense that nothing changed
+on the live site after a push, check the **bottom** of the build log,
+not just whether earlier steps look green.
+
 ### Critical gotcha: do NOT add a custom Worker script (`main` in wrangler.jsonc)
 
 This was tried once (a `worker.js` fetch handler for geo-based language
