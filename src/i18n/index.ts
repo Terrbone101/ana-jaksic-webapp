@@ -23,8 +23,7 @@ i18n
     supportedLngs: ["en", "de", "sr", "fr", "hr"],
     interpolation: { escapeValue: false },
     detection: {
-      order: ["localStorage", "cookie", "navigator"],
-      lookupCookie: "i18next",
+      order: ["localStorage", "navigator"],
       caches: ["localStorage"],
     },
   });
