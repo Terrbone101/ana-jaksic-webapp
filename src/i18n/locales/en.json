@@ -1,7 +1,7 @@
 {
   "nav": {
     "about": "About",
-    "services": "Services",
+    "services": "Artistry",
     "portfolio": "Portfolio",
     "education": "Education",
     "shop": "Shop",
@@ -72,13 +72,13 @@
     "cta": "Interested in collaborating?"
   },
   "services": {
-    "eyebrow": "Services",
-    "title": "What I Offer",
+    "eyebrow": "Artistry",
+    "title": "Where Vision Meets Technique",
     "items": [
-      { "title": "Editorial & Fashion", "text": "High-fashion and editorial makeup for magazines, campaigns, and creative projects. Precision-driven artistry that tells a story." },
-      { "title": "Bridal", "text": "Timeless bridal beauty designed to enhance your natural features. From classic elegance to modern glamour." },
-      { "title": "Artistic & Creative", "text": "Conceptual and avant-garde makeup for art projects, performances, and creative collaborations." },
-      { "title": "Education & Mentoring", "text": "Professional makeup training rooted in advanced color theory, corrective technique, and the art of light and shadow." }
+      { "title": "Editorial", "text": "High-fashion and editorial makeup for magazines, campaigns, and creative shoots — precision-driven artistry that tells a story." },
+      { "title": "Fashion", "text": "Runway and fashion-week ready looks — bold, precise, and built for the camera." },
+      { "title": "Beauty", "text": "Timeless, polished beauty makeup that enhances your natural features, for every occasion." },
+      { "title": "Creative Direction", "text": "Conceptual vision and art direction for shoots, campaigns, and collaborative projects." }
     ]
   },
   "portfolio": {
@@ -88,16 +88,34 @@
   },
   "education": {
     "eyebrow": "Education",
-    "title1": "Master the Art",
-    "title2": "of Color & Form",
-    "text": "Professional makeup artistry is far more than applying color. It demands analyzing facial shapes, understanding corrective theory, and mastering how light and shadow transform the face — the same principles that guided the masters of classical painting.",
-    "text2": "My education programs take you beyond technique into the psychology of color, the science of facial structure, and the art of intentional beauty.",
-    "programs": [
-      "Advanced Color Theory for Professionals",
-      "Shape, Light & Corrective Theory",
-      "Online Masterclasses",
-      "One-on-One Mentoring"
-    ]
+    "title1": "Education by",
+    "title2": "Ana Jakšić",
+    "text": "Ana Jakšić first, courses second. This is access to my knowledge, experience, eye, and mentorship — through two distinct paths.",
+    "path1Badge": "Path 01",
+    "path1Title": "Official MUD Education",
+    "path1Subtitle": "For someone who wants structured, professional training.",
+    "path1Items": [
+      "International curriculum",
+      "Professional MUD kit",
+      "Assignments",
+      "Live mentoring",
+      "Online flexibility",
+      "MUD certification/diploma according to the specific program"
+    ],
+    "path1Cta": "Explore MUD Online",
+    "path2Badge": "Path 02",
+    "path2Title": "Ana Jakšić Masterclasses",
+    "path2Subtitle": "For makeup artists who want to develop their artistry.",
+    "path2Items": [
+      "Editorial",
+      "Creative makeup",
+      "Color",
+      "Skin",
+      "Fashion",
+      "Portfolio development",
+      "Personal artistic identity"
+    ],
+    "path2Cta": "Explore Masterclasses"
   },
   "booking": {
     "eyebrow": "Reserve Your Spot",

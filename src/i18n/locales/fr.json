@@ -1,7 +1,7 @@
 {
   "nav": {
     "about": "À propos",
-    "services": "Services",
+    "services": "Artistry",
     "portfolio": "Portfolio",
     "education": "Formation",
     "shop": "Boutique",
@@ -72,13 +72,13 @@
     "cta": "Intéressé·e par une collaboration ?"
   },
   "services": {
-    "eyebrow": "Services",
-    "title": "Ce que je propose",
+    "eyebrow": "Artistry",
+    "title": "Là où la vision rencontre la technique",
     "items": [
-      { "title": "Editorial & Mode", "text": "Maquillage haute couture et editorial pour magazines, campagnes et projets créatifs. Un art précis qui raconte une histoire." },
-      { "title": "Mariage", "text": "Une beauté nuptiale intemporelle qui met en valeur vos traits naturels. De l'élégance classique au glamour moderne." },
-      { "title": "Artistique & Créatif", "text": "Maquillage conceptuel et avant-gardiste pour projets artistiques, performances et collaborations créatives." },
-      { "title": "Formation & Mentorat", "text": "Formation professionnelle en maquillage fondée sur la théorie avancée des couleurs, la technique corrective et l'art de la lumière et de l'ombre." }
+      { "title": "Editorial", "text": "Maquillage haute couture et editorial pour magazines, campagnes et shootings créatifs — un art précis qui raconte une histoire." },
+      { "title": "Mode", "text": "Des looks prêts pour le défilé et la fashion week — audacieux, précis et pensés pour la caméra." },
+      { "title": "Beauté", "text": "Un maquillage beauté intemporel et soigné qui met en valeur vos traits naturels, pour toute occasion." },
+      { "title": "Direction artistique", "text": "Vision conceptuelle et direction artistique pour shootings, campagnes et projets collaboratifs." }
     ]
   },
   "portfolio": {
@@ -88,16 +88,34 @@
   },
   "education": {
     "eyebrow": "Formation",
-    "title1": "Maîtriser l'art de la couleur",
-    "title2": "et de la forme",
-    "text": "Le maquillage professionnel est bien plus que l'application de couleur. Il exige d'analyser les formes du visage, de comprendre la théorie corrective et de maîtriser la façon dont la lumière et l'ombre transforment le visage — les mêmes principes qui ont guidé les maîtres de la peinture classique.",
-    "text2": "Mes programmes de formation vous emmènent au-delà de la technique, dans la psychologie de la couleur, la science de la structure du visage et l'art de la beauté intentionnelle.",
-    "programs": [
-      "Théorie avancée des couleurs pour professionnels",
-      "Forme, lumière & théorie corrective",
-      "Masterclasses en ligne",
-      "Mentorat individuel"
-    ]
+    "title1": "Formation par",
+    "title2": "Ana Jakšić",
+    "text": "Ana Jakšić d'abord, les cours ensuite. C'est un accès à mon savoir, mon expérience, mon regard et mon mentorat — à travers deux parcours distincts.",
+    "path1Badge": "Parcours 01",
+    "path1Title": "Formation officielle MUD",
+    "path1Subtitle": "Pour celles et ceux qui recherchent une formation professionnelle structurée.",
+    "path1Items": [
+      "Programme international",
+      "Kit MUD professionnel",
+      "Travaux pratiques",
+      "Mentorat en direct",
+      "Flexibilité en ligne",
+      "Certification/diplôme MUD selon le programme"
+    ],
+    "path1Cta": "Découvrir MUD Online",
+    "path2Badge": "Parcours 02",
+    "path2Title": "Masterclasses Ana Jakšić",
+    "path2Subtitle": "Pour les maquilleurs et maquilleuses qui souhaitent développer leur art.",
+    "path2Items": [
+      "Editorial",
+      "Maquillage créatif",
+      "Couleur",
+      "Peau",
+      "Mode",
+      "Développement de portfolio",
+      "Identité artistique personnelle"
+    ],
+    "path2Cta": "Découvrir les Masterclasses"
   },
   "booking": {
     "eyebrow": "Réservez votre place",

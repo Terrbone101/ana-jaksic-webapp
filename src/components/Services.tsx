@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Camera, Heart, Sparkles, GraduationCap } from "lucide-react";
+import { Camera, Sparkles, Heart, Palette } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
-const ICONS = [Camera, Heart, Sparkles, GraduationCap];
+const ICONS = [Camera, Sparkles, Heart, Palette];
 
 interface ServiceItem {
   title: string;

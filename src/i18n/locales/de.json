@@ -1,7 +1,7 @@
 {
   "nav": {
     "about": "Über mich",
-    "services": "Leistungen",
+    "services": "Artistry",
     "portfolio": "Portfolio",
     "education": "Ausbildung",
     "shop": "Shop",
@@ -72,13 +72,13 @@
     "cta": "Interesse an einer Zusammenarbeit?"
   },
   "services": {
-    "eyebrow": "Leistungen",
-    "title": "Mein Angebot",
+    "eyebrow": "Artistry",
+    "title": "Wo Vision auf Technik trifft",
     "items": [
-      { "title": "Editorial & Fashion", "text": "High-Fashion- und Editorial-Make-up für Magazine, Kampagnen und kreative Projekte. Präzise Artistik, die eine Geschichte erzählt." },
-      { "title": "Bridal", "text": "Zeitlose Brautschönheit, die deine natürlichen Züge betont. Von klassischer Eleganz bis modernem Glamour." },
-      { "title": "Künstlerisch & Kreativ", "text": "Konzeptuelles und avantgardistisches Make-up für Kunstprojekte, Performances und kreative Kollaborationen." },
-      { "title": "Ausbildung & Mentoring", "text": "Professionelles Make-up-Training auf Basis fortgeschrittener Farbtheorie, korrektiver Technik und der Kunst von Licht und Schatten." }
+      { "title": "Editorial", "text": "High-Fashion- und Editorial-Make-up für Magazine, Kampagnen und kreative Shootings — präzise Artistik, die eine Geschichte erzählt." },
+      { "title": "Fashion", "text": "Laufsteg- und Fashion-Week-taugliche Looks — mutig, präzise und kamerabereit." },
+      { "title": "Beauty", "text": "Zeitloses, makelloses Beauty-Make-up, das deine natürlichen Züge betont — für jeden Anlass." },
+      { "title": "Creative Direction", "text": "Konzeptuelle Vision und künstlerische Leitung für Shootings, Kampagnen und kollaborative Projekte." }
     ]
   },
   "portfolio": {
@@ -88,16 +88,34 @@
   },
   "education": {
     "eyebrow": "Ausbildung",
-    "title1": "Die Kunst von Farbe",
-    "title2": "und Form meistern",
-    "text": "Professionelles Make-up ist weit mehr als das Auftragen von Farbe. Es erfordert die Analyse von Gesichtsformen, das Verständnis korrektiver Theorie und das Meistern der Art, wie Licht und Schatten das Gesicht verändern — dieselben Prinzipien, die schon die Meister der klassischen Malerei leiteten.",
-    "text2": "Meine Ausbildungsprogramme führen dich über die Technik hinaus — in die Psychologie der Farbe, die Wissenschaft der Gesichtsstruktur und die Kunst bewusster Schönheit.",
-    "programs": [
-      "Fortgeschrittene Farbtheorie für Profis",
-      "Form, Licht & korrektive Theorie",
-      "Online-Masterclasses",
-      "Einzel-Mentoring"
-    ]
+    "title1": "Ausbildung von",
+    "title2": "Ana Jakšić",
+    "text": "Ana Jakšić zuerst, Kurse zweitrangig. Das ist Zugang zu meinem Wissen, meiner Erfahrung, meinem Auge und meinem Mentoring — über zwei getrennte Wege.",
+    "path1Badge": "Weg 01",
+    "path1Title": "Offizielle MUD-Ausbildung",
+    "path1Subtitle": "Für alle, die eine strukturierte, professionelle Ausbildung suchen.",
+    "path1Items": [
+      "Internationales Curriculum",
+      "Professionelles MUD-Kit",
+      "Aufgaben",
+      "Live-Mentoring",
+      "Online-Flexibilität",
+      "MUD-Zertifikat/Diplom je nach Programm"
+    ],
+    "path1Cta": "MUD Online entdecken",
+    "path2Badge": "Weg 02",
+    "path2Title": "Ana Jakšić Masterclasses",
+    "path2Subtitle": "Für Make-up-Artists, die ihre Artistry weiterentwickeln wollen.",
+    "path2Items": [
+      "Editorial",
+      "Creative Make-up",
+      "Farbe",
+      "Haut",
+      "Fashion",
+      "Portfolio-Entwicklung",
+      "Persönliche künstlerische Identität"
+    ],
+    "path2Cta": "Masterclasses entdecken"
   },
   "booking": {
     "eyebrow": "Sichere dir deinen Platz",

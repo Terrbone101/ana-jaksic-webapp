@@ -1,7 +1,7 @@
 {
   "nav": {
     "about": "O meni",
-    "services": "Usluge",
+    "services": "Artistry",
     "portfolio": "Portfolio",
     "education": "Edukacija",
     "shop": "Prodavnica",
@@ -72,13 +72,13 @@
     "cta": "Zainteresovani za saradnju?"
   },
   "services": {
-    "eyebrow": "Usluge",
-    "title": "Šta nudim",
+    "eyebrow": "Artistry",
+    "title": "Gde se vizija sreće sa tehnikom",
     "items": [
-      { "title": "Editorial i moda", "text": "High-fashion i editorial mejkap za magazine, kampanje i kreativne projekte. Precizna umetnost koja priča priču." },
-      { "title": "Venčanja", "text": "Bezvremenska lepota za mladu koja naglašava prirodne crte. Od klasične elegancije do modernog glamura." },
-      { "title": "Umetnički i kreativni", "text": "Konceptualni i avangardni mejkap za umetničke projekte, performanse i kreativne saradnje." },
-      { "title": "Edukacija i mentorstvo", "text": "Profesionalna obuka za vizažiste zasnovana na naprednoj teoriji boja, korektivnoj tehnici i umetnosti svetla i senke." }
+      { "title": "Editorial", "text": "High-fashion i editorial mejkap za časopise, kampanje i kreativna snimanja — precizna umetnost koja priča priču." },
+      { "title": "Moda", "text": "Izgledi spremni za pistu i nedelju mode — hrabri, precizni i spremni za kameru." },
+      { "title": "Lepota", "text": "Bezvremenski, uglađen mejkap koji naglašava tvoje prirodne crte — za svaku priliku." },
+      { "title": "Kreativna režija", "text": "Konceptualna vizija i umetnička režija za snimanja, kampanje i zajedničke projekte." }
     ]
   },
   "portfolio": {
@@ -88,16 +88,34 @@
   },
   "education": {
     "eyebrow": "Edukacija",
-    "title1": "Ovladaj veštinom boje",
-    "title2": "i forme",
-    "text": "Profesionalna vizažistika je mnogo više od nanošenja boje. Zahteva analizu oblika lica, razumevanje korektivne teorije i ovladavanje time kako svetlo i senka menjaju lice — iste principe koji su vodili majstore klasičnog slikarstva.",
-    "text2": "Moji edukativni programi vode te dalje od tehnike — u psihologiju boje, nauku o strukturi lica i umetnost namerne lepote.",
-    "programs": [
-      "Napredna teorija boja za profesionalce",
-      "Oblik, svetlo i korektivna teorija",
-      "Online masterclass-ovi",
-      "Individualno mentorstvo"
-    ]
+    "title1": "Edukacija koju vodi",
+    "title2": "Ana Jaksić",
+    "text": "Prvo Ana Jaksić, kursevi su na drugom mestu. Ovo je pristup mom znanju, iskustvu, oku i mentorstvu — kroz dva odvojena puta.",
+    "path1Badge": "Put 01",
+    "path1Title": "Zvanična MUD edukacija",
+    "path1Subtitle": "Za one koji žele strukturiranu, profesionalnu obuku.",
+    "path1Items": [
+      "Međunarodni kurikulum",
+      "Profesionalni MUD kit",
+      "Zadaci",
+      "Mentorstvo uživo",
+      "Online fleksibilnost",
+      "MUD sertifikat/diploma u zavisnosti od programa"
+    ],
+    "path1Cta": "Istraži MUD Online",
+    "path2Badge": "Put 02",
+    "path2Title": "Ana Jaksić Masterclass-ovi",
+    "path2Subtitle": "Za vizažiste koji žele da razviju svoju umetnost.",
+    "path2Items": [
+      "Editorial",
+      "Kreativni mejkap",
+      "Boja",
+      "Koža",
+      "Moda",
+      "Razvoj portfolija",
+      "Lični umetnički identitet"
+    ],
+    "path2Cta": "Istraži Masterclass-ove"
   },
   "booking": {
     "eyebrow": "Rezerviši svoje mesto",
