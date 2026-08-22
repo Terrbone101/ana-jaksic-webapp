@@ -27,8 +27,8 @@ export default function Stats() {
 
   const stats = [
     { value: 25, suffix: "+", label: t("stats.s1") },
-    { value: 15, suffix: "+", label: t("stats.s2") },
-    { value: 8, suffix: "+", label: t("stats.s3") },
+    { value: 1000, suffix: "+", label: t("stats.s2") },
+    { value: 2, suffix: "×", label: t("stats.s3") },
     { value: null, suffix: "∞", label: t("stats.s4") },
   ];
 
@@ -41,6 +41,9 @@ export default function Stats() {
         <h2 className="mt-3 text-center font-serif text-4xl text-espresso sm:text-5xl">
           {t("stats.title")}
         </h2>
+        <p className="mt-4 text-center font-serif text-lg italic text-espresso-light">
+          {t("stats.tagline")}
+        </p>
 
         <div className="mt-16 grid grid-cols-2 gap-8 sm:grid-cols-4">
           {stats.map((s) => (

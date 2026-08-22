@@ -44,9 +44,10 @@
   "stats": {
     "eyebrow": "Karijera i priznanja",
     "title": "Globalno putovanje kroz svijet ljepote",
+    "tagline": "Karijera izgrađena u svijetu ljepote. Nasljeđe izgrađeno kroz edukaciju.",
     "s1": "Godina profesionalnog iskustva",
-    "s2": "Godina u obuci i razvoju umjetnika",
-    "s3": "Godina rada u Skandinaviji",
+    "s2": "Educiranih i mentoriranih vizažista",
+    "s3": "Make-Up Artist of the Year",
     "s4": "Lica, priče, transformacije",
     "cta": "Zainteresirani za suradnju?"
   },
@@ -73,6 +74,7 @@
     "path1Badge": "Put 01",
     "path1Title": "Službena MUD edukacija",
     "path1Subtitle": "Za one koji žele strukturiranu, profesionalnu obuku.",
+    "path1Intro": "MUD (Make-Up Designory) je međunarodno priznata profesionalna akademija za make-up sa sjedištem u Los Angelesu. MUD Studio Vienna je njezin službeni austrijski partner, koji vodi Ana.",
     "path1Items": [
       "Međunarodni kurikulum",
       "Profesionalni MUD kit",

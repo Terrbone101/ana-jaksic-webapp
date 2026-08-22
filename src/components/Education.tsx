@@ -13,6 +13,7 @@ export default function Education() {
       badge: t("education.path1Badge"),
       title: t("education.path1Title"),
       subtitle: t("education.path1Subtitle"),
+      intro: t("education.path1Intro"),
       items: path1Items,
       cta: t("education.path1Cta"),
     },
@@ -52,6 +53,9 @@ export default function Education() {
                 </div>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-espresso-light">{path.subtitle}</p>
+              {path.intro && (
+                <p className="mt-3 text-sm leading-relaxed text-espresso-light">{path.intro}</p>
+              )}
               <ul className="mt-6 space-y-2.5">
                 {path.items.map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-espresso">

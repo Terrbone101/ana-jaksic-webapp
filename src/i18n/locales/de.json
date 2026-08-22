@@ -67,10 +67,11 @@
   "stats": {
     "eyebrow": "Karriere & Anerkennung",
     "title": "Eine globale Reise durch die Beauty-Welt",
+    "tagline": "Eine Karriere in der Beauty-Welt. Ein Vermächtnis durch Bildung.",
     "text": "Über 25 Jahre Artistik in Modehauptstädten, bei internationalen Award-Shows und auf dem roten Teppich — vom Eurovision Song Contest in Dänemark bis zu den IFFA Awards in Macao — getragen von tiefem Engagement für das Handwerk und die Wissenschaft dahinter.",
     "s1": "Jahre professionelle Erfahrung",
-    "s2": "Jahre im Artist Training & Development",
-    "s3": "Jahre Tätigkeit in Skandinavien",
+    "s2": "Ausgebildete & mentorierte Artists",
+    "s3": "Make-Up Artist of the Year",
     "s4": "Gesichter, Geschichten, Transformationen",
     "cta": "Interesse an einer Zusammenarbeit?"
   },
@@ -97,6 +98,7 @@
     "path1Badge": "Weg 01",
     "path1Title": "Offizielle MUD-Ausbildung",
     "path1Subtitle": "Für alle, die eine strukturierte, professionelle Ausbildung suchen.",
+    "path1Intro": "MUD (Make-Up Designory) ist eine international anerkannte professionelle Make-up-Akademie mit Sitz in Los Angeles. MUD Studio Vienna ist ihr offizieller österreichischer Partner unter der Leitung von Ana.",
     "path1Items": [
       "Internationales Curriculum",
       "Professionelles MUD-Kit",

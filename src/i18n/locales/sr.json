@@ -67,10 +67,11 @@
   "stats": {
     "eyebrow": "Karijera i priznanja",
     "title": "Globalno putovanje kroz svet lepote",
+    "tagline": "Karijera izgrađena u svetu lepote. Nasleđe izgrađeno kroz edukaciju.",
     "text": "Preko 25 godina umetnosti u modnim prestonicama, na međunarodnim dodelama nagrada i crvenim tepisima — od Pesme Evrovizije u Danskoj do IFFA nagrada u Makau — vođeno dubokom posvećenošću zanatu i nauci iza njega.",
     "s1": "Godina profesionalnog iskustva",
-    "s2": "Godina u obuci i razvoju umetnika",
-    "s3": "Godina rada u Skandinaviji",
+    "s2": "Obučenih i mentorisanih vizažista",
+    "s3": "Make-Up Artist of the Year",
     "s4": "Lica, priče, transformacije",
     "cta": "Zainteresovani za saradnju?"
   },
@@ -97,6 +98,7 @@
     "path1Badge": "Put 01",
     "path1Title": "Zvanična MUD edukacija",
     "path1Subtitle": "Za one koji žele strukturiranu, profesionalnu obuku.",
+    "path1Intro": "MUD (Make-Up Designory) je međunarodno priznata profesionalna akademija za mejkap sa sedištem u Los Anđelesu. MUD Studio Vienna je njen zvanični austrijski partner, koji vodi Ana.",
     "path1Items": [
       "Međunarodni kurikulum",
       "Profesionalni MUD kit",
