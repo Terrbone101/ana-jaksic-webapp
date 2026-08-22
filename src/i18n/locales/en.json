@@ -148,6 +148,7 @@
     "successTitle": "Booking Request Sent!",
     "successText": "Thank you, {{name}}! Your request for \"{{course}}\" on {{date}} has been received. Ana will confirm your booking by email shortly.",
     "bookAnother": "Book Another Course",
+    "joinZoom": "Join on Zoom",
     "duration": "Duration",
     "price": "From",
     "selected": "Selected",

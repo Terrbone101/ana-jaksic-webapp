@@ -148,6 +148,7 @@
     "successTitle": "Zahtev za rezervaciju poslat!",
     "successText": "Hvala, {{name}}! Tvoj zahtev za \"{{course}}\" dana {{date}} je primljen. Ana će uskoro potvrditi rezervaciju putem email-a.",
     "bookAnother": "Rezerviši još jedan kurs",
+    "joinZoom": "Pridruži se na Zoom-u",
     "duration": "Trajanje",
     "price": "Od",
     "selected": "Izabrano",

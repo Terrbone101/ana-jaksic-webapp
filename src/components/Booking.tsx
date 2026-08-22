@@ -4,12 +4,13 @@ import { DayPicker } from "react-day-picker";
 import { de, enUS, sr, fr, hr } from "date-fns/locale";
 import type { Locale } from "date-fns";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowLeft, CheckCircle2, Clock, FlaskConical } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Clock, FlaskConical, Video } from "lucide-react";
 import "react-day-picker/style.css";
 import AnimatedSection from "./AnimatedSection";
 import PaymentButtons from "./PaymentButtons";
 import { courses } from "../data/courses";
 import { saveBooking } from "../lib/bookings";
+import { getZoomLink } from "../lib/payments";
 
 interface CourseText {
   title: string;
@@ -33,9 +34,9 @@ export default function Booking() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const [success, setSuccess] = useState<{ course: string; date: string; name: string } | null>(
-    null,
-  );
+  const [success, setSuccess] = useState<
+    { courseId: string; course: string; date: string; name: string } | null
+  >(null);
 
   const course = openIndex !== null ? courses[openIndex] : null;
   const courseText = openIndex !== null ? courseTexts[openIndex] : null;
@@ -76,7 +77,7 @@ export default function Booking() {
       paymentMethod: method,
       createdAt: new Date().toISOString(),
     });
-    setSuccess({ course: courseText.title, date: formattedDate, name });
+    setSuccess({ courseId: course.id, course: courseText.title, date: formattedDate, name });
   }
 
   const stepIndex = STEPS.indexOf(step);
@@ -167,7 +168,23 @@ export default function Booking() {
                       date: success.date,
                     })}
                   </p>
-                  <button onClick={closeDetail} className="btn btn-dark mt-8">
+                  {(() => {
+                    const zoomLink = getZoomLink(success.courseId);
+                    return (
+                      zoomLink && (
+                        <a
+                          href={zoomLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-primary mt-6"
+                        >
+                          <Video size={16} />
+                          {t("booking.joinZoom")}
+                        </a>
+                      )
+                    );
+                  })()}
+                  <button onClick={closeDetail} className="btn btn-dark mt-4">
                     {t("booking.bookAnother")}
                   </button>
                 </div>

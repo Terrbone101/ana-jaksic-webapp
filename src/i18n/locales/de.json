@@ -148,6 +148,7 @@
     "successTitle": "Buchungsanfrage gesendet!",
     "successText": "Danke, {{name}}! Deine Anfrage für \"{{course}}\" am {{date}} ist eingegangen. Ana bestätigt deine Buchung in Kürze per E-Mail.",
     "bookAnother": "Weiteren Kurs buchen",
+    "joinZoom": "Zoom-Meeting beitreten",
     "duration": "Dauer",
     "price": "Ab",
     "selected": "Ausgewählt",

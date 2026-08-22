@@ -148,6 +148,7 @@
     "successTitle": "Demande de réservation envoyée !",
     "successText": "Merci, {{name}} ! Votre demande pour « {{course}} » le {{date}} a bien été reçue. Ana confirmera votre réservation par e-mail sous peu.",
     "bookAnother": "Réserver un autre cours",
+    "joinZoom": "Rejoindre sur Zoom",
     "duration": "Durée",
     "price": "À partir de",
     "selected": "Sélectionné",

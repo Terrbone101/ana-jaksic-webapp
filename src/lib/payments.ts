@@ -25,3 +25,13 @@ export const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID || "sb";
 export const STRIPE_PUBLISHABLE_KEY = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY as
   | string
   | undefined;
+
+// Zoom meeting link for the live Online Masterclass, read from an env var so
+// Ana can update it per session without a code change - see .env.example.
+const zoomLinks: Record<string, string | undefined> = {
+  online: import.meta.env.VITE_ZOOM_LINK_ONLINE,
+};
+
+export function getZoomLink(id: string): string | undefined {
+  return zoomLinks[id] || undefined;
+}
